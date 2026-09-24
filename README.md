@@ -43,7 +43,7 @@ Python stdlib only; no weights, downloads or API key. The archive contains31,200
 
 Full FP32 weights have been reconstructed, with every tensor checked against A+V3 delta. CPU and MPS output checks for five requests per device exactly matched the archived two-part loader. This is a smoke test, not full backend equivalence or a speed leaderboard. The wrapper uses a512-token head budget; this archived Feishu run used256. Probabilities are not calibrated for a new domain; the frozen action head is not exposed as a reliable abstention signal.
 
-The full merged FP32 model is now public as [Laya-CN-A on Hugging Face](https://huggingface.co/Adkid/laya-cn-a), revision `97f1604aca185393887b9a5cc78380fdb008f4a4`. The Hub weight SHA256 matches the exported A+V3 checkpoint (`f24d658960f88c45497bc71064db57b9046bedd77f1f56c773b5e0041008d6a7`). Download it for local prediction with the included `predict.py`; the model card explains the tested environment.
+The full merged FP32 model is now public as [Laya-CN-A on Hugging Face](https://huggingface.co/Adkid/laya-cn-a), revision `97f1604aca185393887b9a5cc78380fdb008f4a4`. The Hub weight SHA256 matches the exported A+V3 checkpoint (`f24d658960f88c45497bc71064db57b9046bedd77f1f56c773b5e0041008d6a7`). Download it for local prediction with the model repository’s `predict.py`; the model card explains the tested environment.
 
 [Source and weight hashes](SOURCE.json). Upstream code/weights attribution: Convai Innovations and Laya contributors, Apache-2.0. Prepared with OpenAI Codex assistance. Training recipes and negative outcomes are retained; a fresh-machine full retraining replay has not been independently executed.
 
