@@ -1,0 +1,3717 @@
+{
+  "protocol": "64 frozen synthetic cases; one repeat, CUDA BF16, head budget256; historical diagnostic",
+  "rows": [
+    {
+      "id": "ownership-01",
+      "family": "ownership",
+      "expected": "urgent",
+      "mode": "choice",
+      "request_sha256": "f23c586bb098cb6371d703de081f98646ab438906a76ee0d12c0cdab1d82cfaf",
+      "forward_ms": 292.0074670109898,
+      "answers": {
+        "category": {
+          "choice": "urgent",
+          "probabilities": {
+            "urgent": 0.8935,
+            "todo": 0.0318,
+            "valuable": 0.0408,
+            "noise": 0.0338
+          },
+          "confidence": 0.6715069024809417
+        }
+      },
+      "predicted": "urgent",
+      "probabilities": {
+        "urgent": 0.8935,
+        "todo": 0.0318,
+        "valuable": 0.0408,
+        "noise": 0.0338
+      },
+      "confidence": 0.6715069024809417
+    },
+    {
+      "id": "ownership-01",
+      "family": "ownership",
+      "expected": "urgent",
+      "mode": "four_noul",
+      "request_sha256": "7cd8ea049b7459ee9c749645e757a9af480c26d6889ca7fba84f64e455af09a3",
+      "forward_ms": 27.135835960507393,
+      "answers": {
+        "related": {
+          "noul": 0.479
+        },
+        "action": {
+          "noul": 0.074
+        },
+        "urgent": {
+          "noul": 0.9657
+        },
+        "value": {
+          "noul": 0.0641
+        }
+      },
+      "predicted": "noise",
+      "signals": {
+        "related": 0.479,
+        "action": 0.074,
+        "urgent": 0.9657,
+        "value": 0.0641
+      },
+      "review": true
+    },
+    {
+      "id": "ownership-02",
+      "family": "ownership",
+      "expected": "urgent",
+      "mode": "choice",
+      "request_sha256": "155d36d4adc2d065648eb63c535c55a2d13e73e5b21d9c15e4fdbca70e543438",
+      "forward_ms": 18.024972057901323,
+      "answers": {
+        "category": {
+          "choice": "urgent",
+          "probabilities": {
+            "urgent": 0.7669,
+            "todo": 0.0736,
+            "valuable": 0.1105,
+            "noise": 0.049
+          },
+          "confidence": 0.43246034784044707
+        }
+      },
+      "predicted": "urgent",
+      "probabilities": {
+        "urgent": 0.7669,
+        "todo": 0.0736,
+        "valuable": 0.1105,
+        "noise": 0.049
+      },
+      "confidence": 0.43246034784044707
+    },
+    {
+      "id": "ownership-02",
+      "family": "ownership",
+      "expected": "urgent",
+      "mode": "four_noul",
+      "request_sha256": "f36fdac4ddf8e80cedf58e5932fa626c878525b9549851c640716ef5f1054b37",
+      "forward_ms": 17.28957798331976,
+      "answers": {
+        "related": {
+          "noul": 0.279
+        },
+        "action": {
+          "noul": 0.0165
+        },
+        "urgent": {
+          "noul": 0.8869
+        },
+        "value": {
+          "noul": 0.2245
+        }
+      },
+      "predicted": "noise",
+      "signals": {
+        "related": 0.279,
+        "action": 0.0165,
+        "urgent": 0.8869,
+        "value": 0.2245
+      },
+      "review": true
+    },
+    {
+      "id": "ownership-03",
+      "family": "ownership",
+      "expected": "todo",
+      "mode": "choice",
+      "request_sha256": "1df249a9225212a1c5cc1b8d4e9c697236d5d27ba5d6af55b26f39788e94c18b",
+      "forward_ms": 17.33746100217104,
+      "answers": {
+        "category": {
+          "choice": "urgent",
+          "probabilities": {
+            "urgent": 0.95,
+            "todo": 0.0243,
+            "valuable": 0.0094,
+            "noise": 0.0162
+          },
+          "confidence": 0.8197956862659478
+        }
+      },
+      "predicted": "urgent",
+      "probabilities": {
+        "urgent": 0.95,
+        "todo": 0.0243,
+        "valuable": 0.0094,
+        "noise": 0.0162
+      },
+      "confidence": 0.8197956862659478
+    },
+    {
+      "id": "ownership-03",
+      "family": "ownership",
+      "expected": "todo",
+      "mode": "four_noul",
+      "request_sha256": "72de14774b03cb37331ba32dde48dd56df3e12e76287a2c0c426049a23b2a195",
+      "forward_ms": 17.504002898931503,
+      "answers": {
+        "related": {
+          "noul": 0.8093
+        },
+        "action": {
+          "noul": 0.5898
+        },
+        "urgent": {
+          "noul": 0.9638
+        },
+        "value": {
+          "noul": 0.9219
+        }
+      },
+      "predicted": "urgent",
+      "signals": {
+        "related": 0.8093,
+        "action": 0.5898,
+        "urgent": 0.9638,
+        "value": 0.9219
+      },
+      "review": true
+    },
+    {
+      "id": "ownership-04",
+      "family": "ownership",
+      "expected": "todo",
+      "mode": "choice",
+      "request_sha256": "d76da096c0da31b57903542beb8fd331545df48371b804f33420c7c90f685480",
+      "forward_ms": 16.941157984547317,
+      "answers": {
+        "category": {
+          "choice": "urgent",
+          "probabilities": {
+            "urgent": 0.7109,
+            "todo": 0.0542,
+            "valuable": 0.1833,
+            "noise": 0.0517
+          },
+          "confidence": 0.37626716645416003
+        }
+      },
+      "predicted": "urgent",
+      "probabilities": {
+        "urgent": 0.7109,
+        "todo": 0.0542,
+        "valuable": 0.1833,
+        "noise": 0.0517
+      },
+      "confidence": 0.37626716645416003
+    },
+    {
+      "id": "ownership-04",
+      "family": "ownership",
+      "expected": "todo",
+      "mode": "four_noul",
+      "request_sha256": "c84e613f3f9eb3e02b806621094f55d8c6baa379fa9932edd3897a55fa80adc4",
+      "forward_ms": 16.911384998820722,
+      "answers": {
+        "related": {
+          "noul": 0.5776
+        },
+        "action": {
+          "noul": 0.3326
+        },
+        "urgent": {
+          "noul": 0.5879
+        },
+        "value": {
+          "noul": 0.375
+        }
+      },
+      "predicted": "noise",
+      "signals": {
+        "related": 0.5776,
+        "action": 0.3326,
+        "urgent": 0.5879,
+        "value": 0.375
+      },
+      "review": true
+    },
+    {
+      "id": "ownership-05",
+      "family": "ownership",
+      "expected": "valuable",
+      "mode": "choice",
+      "request_sha256": "fba8384004987d7300585147f244f5ed43c9cf27ac578ce3457ff608d48e0f32",
+      "forward_ms": 17.613867996260524,
+      "answers": {
+        "category": {
+          "choice": "valuable",
+          "probabilities": {
+            "urgent": 0.1862,
+            "todo": 0.2391,
+            "valuable": 0.5142,
+            "noise": 0.0605
+          },
+          "confidence": 0.15833522282973145
+        }
+      },
+      "predicted": "valuable",
+      "probabilities": {
+        "urgent": 0.1862,
+        "todo": 0.2391,
+        "valuable": 0.5142,
+        "noise": 0.0605
+      },
+      "confidence": 0.15833522282973145
+    },
+    {
+      "id": "ownership-05",
+      "family": "ownership",
+      "expected": "valuable",
+      "mode": "four_noul",
+      "request_sha256": "fc88d843153e380672243db4a2a3cceb20f540874230924605c21c85f75723bf",
+      "forward_ms": 17.148377024568617,
+      "answers": {
+        "related": {
+          "noul": 0.3735
+        },
+        "action": {
+          "noul": 0.0038
+        },
+        "urgent": {
+          "noul": 0.4917
+        },
+        "value": {
+          "noul": 0.2464
+        }
+      },
+      "predicted": "noise",
+      "signals": {
+        "related": 0.3735,
+        "action": 0.0038,
+        "urgent": 0.4917,
+        "value": 0.2464
+      },
+      "review": true
+    },
+    {
+      "id": "ownership-06",
+      "family": "ownership",
+      "expected": "valuable",
+      "mode": "choice",
+      "request_sha256": "f377d1c77e69f9898eab06854763b234e42d22b208a5bead0f86d98c17111971",
+      "forward_ms": 16.946051036939025,
+      "answers": {
+        "category": {
+          "choice": "valuable",
+          "probabilities": {
+            "urgent": 0.095,
+            "todo": 0.2076,
+            "valuable": 0.6913,
+            "noise": 0.0062
+          },
+          "confidence": 0.39649202522598737
+        }
+      },
+      "predicted": "valuable",
+      "probabilities": {
+        "urgent": 0.095,
+        "todo": 0.2076,
+        "valuable": 0.6913,
+        "noise": 0.0062
+      },
+      "confidence": 0.39649202522598737
+    },
+    {
+      "id": "ownership-06",
+      "family": "ownership",
+      "expected": "valuable",
+      "mode": "four_noul",
+      "request_sha256": "6c8b45b1567720aeace61f1b9cb96ce6f0020464b8f9880f0c2aa06fa15cdaf6",
+      "forward_ms": 20.77111101243645,
+      "answers": {
+        "related": {
+          "noul": 0.0232
+        },
+        "action": {
+          "noul": 0.0001
+        },
+        "urgent": {
+          "noul": 0.0027
+        },
+        "value": {
+          "noul": 0.7766
+        }
+      },
+      "predicted": "noise",
+      "signals": {
+        "related": 0.0232,
+        "action": 0.0001,
+        "urgent": 0.0027,
+        "value": 0.7766
+      },
+      "review": false
+    },
+    {
+      "id": "ownership-07",
+      "family": "ownership",
+      "expected": "noise",
+      "mode": "choice",
+      "request_sha256": "9d5f1a561bdfdf7f2324374f440133f1924ea31bf563af7cbd711e5a4e3b8c02",
+      "forward_ms": 16.938502085395157,
+      "answers": {
+        "category": {
+          "choice": "urgent",
+          "probabilities": {
+            "urgent": 0.7245,
+            "todo": 0.0826,
+            "valuable": 0.1361,
+            "noise": 0.0568
+          },
+          "confidence": 0.36976415845973554
+        }
+      },
+      "predicted": "urgent",
+      "probabilities": {
+        "urgent": 0.7245,
+        "todo": 0.0826,
+        "valuable": 0.1361,
+        "noise": 0.0568
+      },
+      "confidence": 0.36976415845973554
+    },
+    {
+      "id": "ownership-07",
+      "family": "ownership",
+      "expected": "noise",
+      "mode": "four_noul",
+      "request_sha256": "b7b16f6d4febbfda41094be2cc6d92bd68389770a94f169d4d69d6f970db463c",
+      "forward_ms": 17.38085807301104,
+      "answers": {
+        "related": {
+          "noul": 0.1094
+        },
+        "action": {
+          "noul": 0.0042
+        },
+        "urgent": {
+          "noul": 0.9168
+        },
+        "value": {
+          "noul": 0.4685
+        }
+      },
+      "predicted": "noise",
+      "signals": {
+        "related": 0.1094,
+        "action": 0.0042,
+        "urgent": 0.9168,
+        "value": 0.4685
+      },
+      "review": false
+    },
+    {
+      "id": "ownership-08",
+      "family": "ownership",
+      "expected": "noise",
+      "mode": "choice",
+      "request_sha256": "e16a32a5c1ef4e140f3d12e34d970d467dc8776f9d3021ae1b94ee62543db428",
+      "forward_ms": 17.255603917874396,
+      "answers": {
+        "category": {
+          "choice": "urgent",
+          "probabilities": {
+            "urgent": 0.9321,
+            "todo": 0.0336,
+            "valuable": 0.021,
+            "noise": 0.0133
+          },
+          "confidence": 0.7704747918722348
+        }
+      },
+      "predicted": "urgent",
+      "probabilities": {
+        "urgent": 0.9321,
+        "todo": 0.0336,
+        "valuable": 0.021,
+        "noise": 0.0133
+      },
+      "confidence": 0.7704747918722348
+    },
+    {
+      "id": "ownership-08",
+      "family": "ownership",
+      "expected": "noise",
+      "mode": "four_noul",
+      "request_sha256": "d9b15d04dfa235f32a2d6eceefce2d6853865dd8ed58d3a5977fed522964ed68",
+      "forward_ms": 17.173925996758044,
+      "answers": {
+        "related": {
+          "noul": 0.1107
+        },
+        "action": {
+          "noul": 0.0422
+        },
+        "urgent": {
+          "noul": 0.9618
+        },
+        "value": {
+          "noul": 0.913
+        }
+      },
+      "predicted": "noise",
+      "signals": {
+        "related": 0.1107,
+        "action": 0.0422,
+        "urgent": 0.9618,
+        "value": 0.913
+      },
+      "review": false
+    },
+    {
+      "id": "lifecycle-01",
+      "family": "lifecycle",
+      "expected": "urgent",
+      "mode": "choice",
+      "request_sha256": "561564e0abfef4ef78e1be6cca6f552bd84cc16e0bf4322367121395f7f1af46",
+      "forward_ms": 16.937014064751565,
+      "answers": {
+        "category": {
+          "choice": "urgent",
+          "probabilities": {
+            "urgent": 0.9502,
+            "todo": 0.0151,
+            "valuable": 0.0165,
+            "noise": 0.0182
+          },
+          "confidence": 0.817946690037606
+        }
+      },
+      "predicted": "urgent",
+      "probabilities": {
+        "urgent": 0.9502,
+        "todo": 0.0151,
+        "valuable": 0.0165,
+        "noise": 0.0182
+      },
+      "confidence": 0.817946690037606
+    },
+    {
+      "id": "lifecycle-01",
+      "family": "lifecycle",
+      "expected": "urgent",
+      "mode": "four_noul",
+      "request_sha256": "6143ef43fcd43df5af2c83ebf56f766e8cab4ab86a8928a9fe13057ef1a70967",
+      "forward_ms": 16.843596938997507,
+      "answers": {
+        "related": {
+          "noul": 0.3798
+        },
+        "action": {
+          "noul": 0.071
+        },
+        "urgent": {
+          "noul": 0.908
+        },
+        "value": {
+          "noul": 0.93
+        }
+      },
+      "predicted": "noise",
+      "signals": {
+        "related": 0.3798,
+        "action": 0.071,
+        "urgent": 0.908,
+        "value": 0.93
+      },
+      "review": true
+    },
+    {
+      "id": "lifecycle-02",
+      "family": "lifecycle",
+      "expected": "urgent",
+      "mode": "choice",
+      "request_sha256": "63e873588459a081a999e179597ff926b2e1e652824d1eafdfe4d1a6d6a9132c",
+      "forward_ms": 16.907486016862094,
+      "answers": {
+        "category": {
+          "choice": "urgent",
+          "probabilities": {
+            "urgent": 0.6073,
+            "todo": 0.1536,
+            "valuable": 0.1488,
+            "noise": 0.0903
+          },
+          "confidence": 0.21286816969591427
+        }
+      },
+      "predicted": "urgent",
+      "probabilities": {
+        "urgent": 0.6073,
+        "todo": 0.1536,
+        "valuable": 0.1488,
+        "noise": 0.0903
+      },
+      "confidence": 0.21286816969591427
+    },
+    {
+      "id": "lifecycle-02",
+      "family": "lifecycle",
+      "expected": "urgent",
+      "mode": "four_noul",
+      "request_sha256": "eae15f49f02bec72efa97985acefc966c6a49097b1d798e1d858a7869fb23b66",
+      "forward_ms": 16.8367080623284,
+      "answers": {
+        "related": {
+          "noul": 0.2598
+        },
+        "action": {
+          "noul": 0.0107
+        },
+        "urgent": {
+          "noul": 0.8674
+        },
+        "value": {
+          "noul": 0.6043
+        }
+      },
+      "predicted": "noise",
+      "signals": {
+        "related": 0.2598,
+        "action": 0.0107,
+        "urgent": 0.8674,
+        "value": 0.6043
+      },
+      "review": true
+    },
+    {
+      "id": "lifecycle-03",
+      "family": "lifecycle",
+      "expected": "todo",
+      "mode": "choice",
+      "request_sha256": "6b9c5c63437899e7f629df757c701e85c42864b681f99c2ae638f4f3b66d9bac",
+      "forward_ms": 16.330766025930643,
+      "answers": {
+        "category": {
+          "choice": "urgent",
+          "probabilities": {
+            "urgent": 0.4508,
+            "todo": 0.1738,
+            "valuable": 0.2197,
+            "noise": 0.1558
+          },
+          "confidence": 0.07243960574353225
+        }
+      },
+      "predicted": "urgent",
+      "probabilities": {
+        "urgent": 0.4508,
+        "todo": 0.1738,
+        "valuable": 0.2197,
+        "noise": 0.1558
+      },
+      "confidence": 0.07243960574353225
+    },
+    {
+      "id": "lifecycle-03",
+      "family": "lifecycle",
+      "expected": "todo",
+      "mode": "four_noul",
+      "request_sha256": "5f89c2a77b90a703305868054546c60fada92106f25824ba372ddd3880b6b599",
+      "forward_ms": 16.862603020854294,
+      "answers": {
+        "related": {
+          "noul": 0.4328
+        },
+        "action": {
+          "noul": 0.0079
+        },
+        "urgent": {
+          "noul": 0.6166
+        },
+        "value": {
+          "noul": 0.0877
+        }
+      },
+      "predicted": "noise",
+      "signals": {
+        "related": 0.4328,
+        "action": 0.0079,
+        "urgent": 0.6166,
+        "value": 0.0877
+      },
+      "review": true
+    },
+    {
+      "id": "lifecycle-04",
+      "family": "lifecycle",
+      "expected": "todo",
+      "mode": "choice",
+      "request_sha256": "a1928bc48fa0aebdc19c46fec41911d52ae6b8ec4927ab90d69ff20e920ded24",
+      "forward_ms": 16.895766952075064,
+      "answers": {
+        "category": {
+          "choice": "urgent",
+          "probabilities": {
+            "urgent": 0.6056,
+            "todo": 0.1473,
+            "valuable": 0.1695,
+            "noise": 0.0776
+          },
+          "confidence": 0.21733309728628902
+        }
+      },
+      "predicted": "urgent",
+      "probabilities": {
+        "urgent": 0.6056,
+        "todo": 0.1473,
+        "valuable": 0.1695,
+        "noise": 0.0776
+      },
+      "confidence": 0.21733309728628902
+    },
+    {
+      "id": "lifecycle-04",
+      "family": "lifecycle",
+      "expected": "todo",
+      "mode": "four_noul",
+      "request_sha256": "1e150ee4c4917124fe213a57bcb0098a3874ef7429a2206c3a9f80df3b6396b4",
+      "forward_ms": 16.818128060549498,
+      "answers": {
+        "related": {
+          "noul": 0.4024
+        },
+        "action": {
+          "noul": 0.0015
+        },
+        "urgent": {
+          "noul": 0.4244
+        },
+        "value": {
+          "noul": 0.8105
+        }
+      },
+      "predicted": "noise",
+      "signals": {
+        "related": 0.4024,
+        "action": 0.0015,
+        "urgent": 0.4244,
+        "value": 0.8105
+      },
+      "review": true
+    },
+    {
+      "id": "lifecycle-05",
+      "family": "lifecycle",
+      "expected": "valuable",
+      "mode": "choice",
+      "request_sha256": "e0fd4155dea38e472a372223af9bb719c16343fca777dbe665751ab8cc0a588f",
+      "forward_ms": 17.379197059199214,
+      "answers": {
+        "category": {
+          "choice": "urgent",
+          "probabilities": {
+            "urgent": 0.3847,
+            "todo": 0.2563,
+            "valuable": 0.153,
+            "noise": 0.2059
+          },
+          "confidence": 0.04125407765390454
+        }
+      },
+      "predicted": "urgent",
+      "probabilities": {
+        "urgent": 0.3847,
+        "todo": 0.2563,
+        "valuable": 0.153,
+        "noise": 0.2059
+      },
+      "confidence": 0.04125407765390454
+    },
+    {
+      "id": "lifecycle-05",
+      "family": "lifecycle",
+      "expected": "valuable",
+      "mode": "four_noul",
+      "request_sha256": "8b60e9493f71621eb689d8cc25bb41c4a8b39da0a979ef614c9b6a6e203a5060",
+      "forward_ms": 17.191434046253562,
+      "answers": {
+        "related": {
+          "noul": 0.6049
+        },
+        "action": {
+          "noul": 0.0151
+        },
+        "urgent": {
+          "noul": 0.9612
+        },
+        "value": {
+          "noul": 0.9252
+        }
+      },
+      "predicted": "valuable",
+      "signals": {
+        "related": 0.6049,
+        "action": 0.0151,
+        "urgent": 0.9612,
+        "value": 0.9252
+      },
+      "review": true
+    },
+    {
+      "id": "lifecycle-06",
+      "family": "lifecycle",
+      "expected": "valuable",
+      "mode": "choice",
+      "request_sha256": "6bdea99a3343448b6a49838889fe9890d86b18c1d02589d5c9fa9c9d0b8d6d9d",
+      "forward_ms": 17.420507967472076,
+      "answers": {
+        "category": {
+          "choice": "urgent",
+          "probabilities": {
+            "urgent": 0.4265,
+            "todo": 0.3169,
+            "valuable": 0.1922,
+            "noise": 0.0644
+          },
+          "confidence": 0.11907794699583407
+        }
+      },
+      "predicted": "urgent",
+      "probabilities": {
+        "urgent": 0.4265,
+        "todo": 0.3169,
+        "valuable": 0.1922,
+        "noise": 0.0644
+      },
+      "confidence": 0.11907794699583407
+    },
+    {
+      "id": "lifecycle-06",
+      "family": "lifecycle",
+      "expected": "valuable",
+      "mode": "four_noul",
+      "request_sha256": "bd886cacf6b4fb90c827d3339d84bb9e88fbdd97da072331537fe129ca6a3d49",
+      "forward_ms": 16.575601999647915,
+      "answers": {
+        "related": {
+          "noul": 0.3877
+        },
+        "action": {
+          "noul": 0.0064
+        },
+        "urgent": {
+          "noul": 0.9507
+        },
+        "value": {
+          "noul": 0.8708
+        }
+      },
+      "predicted": "noise",
+      "signals": {
+        "related": 0.3877,
+        "action": 0.0064,
+        "urgent": 0.9507,
+        "value": 0.8708
+      },
+      "review": true
+    },
+    {
+      "id": "lifecycle-07",
+      "family": "lifecycle",
+      "expected": "noise",
+      "mode": "choice",
+      "request_sha256": "3b565a8c68e6478b79d0e2eb39930785783d20539c69994173a3c1318f62e8be",
+      "forward_ms": 17.455036053434014,
+      "answers": {
+        "category": {
+          "choice": "urgent",
+          "probabilities": {
+            "urgent": 0.8308,
+            "todo": 0.081,
+            "valuable": 0.0523,
+            "noise": 0.0359
+          },
+          "confidence": 0.5445500405402826
+        }
+      },
+      "predicted": "urgent",
+      "probabilities": {
+        "urgent": 0.8308,
+        "todo": 0.081,
+        "valuable": 0.0523,
+        "noise": 0.0359
+      },
+      "confidence": 0.5445500405402826
+    },
+    {
+      "id": "lifecycle-07",
+      "family": "lifecycle",
+      "expected": "noise",
+      "mode": "four_noul",
+      "request_sha256": "ce73ba4559ee814d917a8ea5762692a64c310d2abd1a5e6b86eae6b3482cb539",
+      "forward_ms": 17.024596105329692,
+      "answers": {
+        "related": {
+          "noul": 0.4204
+        },
+        "action": {
+          "noul": 0.0102
+        },
+        "urgent": {
+          "noul": 0.0291
+        },
+        "value": {
+          "noul": 0.8687
+        }
+      },
+      "predicted": "noise",
+      "signals": {
+        "related": 0.4204,
+        "action": 0.0102,
+        "urgent": 0.0291,
+        "value": 0.8687
+      },
+      "review": true
+    },
+    {
+      "id": "lifecycle-08",
+      "family": "lifecycle",
+      "expected": "noise",
+      "mode": "choice",
+      "request_sha256": "6b48996bed99bb14456182ba91803465b1a58831199d100b05b08f82f6e67c75",
+      "forward_ms": 16.398778068833053,
+      "answers": {
+        "category": {
+          "choice": "todo",
+          "probabilities": {
+            "urgent": 0.0518,
+            "todo": 0.8034,
+            "valuable": 0.1204,
+            "noise": 0.0245
+          },
+          "confidence": 0.5133124876987689
+        }
+      },
+      "predicted": "todo",
+      "probabilities": {
+        "urgent": 0.0518,
+        "todo": 0.8034,
+        "valuable": 0.1204,
+        "noise": 0.0245
+      },
+      "confidence": 0.5133124876987689
+    },
+    {
+      "id": "lifecycle-08",
+      "family": "lifecycle",
+      "expected": "noise",
+      "mode": "four_noul",
+      "request_sha256": "71689c8b612471e5633df6f0ad1daede6abc36f71f12c3c8642d860fe88163a9",
+      "forward_ms": 16.80178102105856,
+      "answers": {
+        "related": {
+          "noul": 0.6445
+        },
+        "action": {
+          "noul": 0.0015
+        },
+        "urgent": {
+          "noul": 0.017
+        },
+        "value": {
+          "noul": 0.7033
+        }
+      },
+      "predicted": "valuable",
+      "signals": {
+        "related": 0.6445,
+        "action": 0.0015,
+        "urgent": 0.017,
+        "value": 0.7033
+      },
+      "review": true
+    },
+    {
+      "id": "urgency-01",
+      "family": "urgency",
+      "expected": "urgent",
+      "mode": "choice",
+      "request_sha256": "b6ccbac1c3eaf7c90cf03b582d3abaeab8979d98a4df673ff5f29d0977ee3c91",
+      "forward_ms": 17.176297027617693,
+      "answers": {
+        "category": {
+          "choice": "urgent",
+          "probabilities": {
+            "urgent": 0.932,
+            "todo": 0.0279,
+            "valuable": 0.0232,
+            "noise": 0.0169
+          },
+          "confidence": 0.7678574524022478
+        }
+      },
+      "predicted": "urgent",
+      "probabilities": {
+        "urgent": 0.932,
+        "todo": 0.0279,
+        "valuable": 0.0232,
+        "noise": 0.0169
+      },
+      "confidence": 0.7678574524022478
+    },
+    {
+      "id": "urgency-01",
+      "family": "urgency",
+      "expected": "urgent",
+      "mode": "four_noul",
+      "request_sha256": "adb92e85f10c59386106bf00d0ef7960c5eaac271e651d704cdacb386304d2e2",
+      "forward_ms": 17.11055892519653,
+      "answers": {
+        "related": {
+          "noul": 0.7532
+        },
+        "action": {
+          "noul": 0.1206
+        },
+        "urgent": {
+          "noul": 0.9727
+        },
+        "value": {
+          "noul": 0.9528
+        }
+      },
+      "predicted": "valuable",
+      "signals": {
+        "related": 0.7532,
+        "action": 0.1206,
+        "urgent": 0.9727,
+        "value": 0.9528
+      },
+      "review": false
+    },
+    {
+      "id": "urgency-02",
+      "family": "urgency",
+      "expected": "urgent",
+      "mode": "choice",
+      "request_sha256": "e62f7e3c8d5a9057c8441f19e7167932eb6c7aa4b1c9cbf104fa98f83b212c25",
+      "forward_ms": 16.986311064101756,
+      "answers": {
+        "category": {
+          "choice": "urgent",
+          "probabilities": {
+            "urgent": 0.6246,
+            "todo": 0.1531,
+            "valuable": 0.1734,
+            "noise": 0.0489
+          },
+          "confidence": 0.2550417553404921
+        }
+      },
+      "predicted": "urgent",
+      "probabilities": {
+        "urgent": 0.6246,
+        "todo": 0.1531,
+        "valuable": 0.1734,
+        "noise": 0.0489
+      },
+      "confidence": 0.2550417553404921
+    },
+    {
+      "id": "urgency-02",
+      "family": "urgency",
+      "expected": "urgent",
+      "mode": "four_noul",
+      "request_sha256": "771cd1dc0046a0b557d9a064d99b040492c614cfcfc88618bad46bf149c43e7b",
+      "forward_ms": 16.81239390745759,
+      "answers": {
+        "related": {
+          "noul": 0.8197
+        },
+        "action": {
+          "noul": 0.0048
+        },
+        "urgent": {
+          "noul": 0.8242
+        },
+        "value": {
+          "noul": 0.5722
+        }
+      },
+      "predicted": "valuable",
+      "signals": {
+        "related": 0.8197,
+        "action": 0.0048,
+        "urgent": 0.8242,
+        "value": 0.5722
+      },
+      "review": true
+    },
+    {
+      "id": "urgency-03",
+      "family": "urgency",
+      "expected": "todo",
+      "mode": "choice",
+      "request_sha256": "146629432c46d1dc2b3fed8833695df1d9239f94e438e969e7c309d87dc0ebfe",
+      "forward_ms": 17.18026795424521,
+      "answers": {
+        "category": {
+          "choice": "urgent",
+          "probabilities": {
+            "urgent": 0.492,
+            "todo": 0.4586,
+            "valuable": 0.0289,
+            "noise": 0.0205
+          },
+          "confidence": 0.3591635778171792
+        }
+      },
+      "predicted": "urgent",
+      "probabilities": {
+        "urgent": 0.492,
+        "todo": 0.4586,
+        "valuable": 0.0289,
+        "noise": 0.0205
+      },
+      "confidence": 0.3591635778171792
+    },
+    {
+      "id": "urgency-03",
+      "family": "urgency",
+      "expected": "todo",
+      "mode": "four_noul",
+      "request_sha256": "ca4099b83f81a6dbe40446afc045740368101d36945c377e9195fa9bdf350437",
+      "forward_ms": 16.52923400979489,
+      "answers": {
+        "related": {
+          "noul": 0.7716
+        },
+        "action": {
+          "noul": 0.0031
+        },
+        "urgent": {
+          "noul": 0.9922
+        },
+        "value": {
+          "noul": 0.2764
+        }
+      },
+      "predicted": "noise",
+      "signals": {
+        "related": 0.7716,
+        "action": 0.0031,
+        "urgent": 0.9922,
+        "value": 0.2764
+      },
+      "review": true
+    },
+    {
+      "id": "urgency-04",
+      "family": "urgency",
+      "expected": "todo",
+      "mode": "choice",
+      "request_sha256": "1996ccad3e24135fdbd7e76d0b5c706adc7e806bdf58adb13cc1c498ba85da3e",
+      "forward_ms": 16.922052018344402,
+      "answers": {
+        "category": {
+          "choice": "urgent",
+          "probabilities": {
+            "urgent": 0.7305,
+            "todo": 0.1416,
+            "valuable": 0.0873,
+            "noise": 0.0406
+          },
+          "confidence": 0.3875696082948876
+        }
+      },
+      "predicted": "urgent",
+      "probabilities": {
+        "urgent": 0.7305,
+        "todo": 0.1416,
+        "valuable": 0.0873,
+        "noise": 0.0406
+      },
+      "confidence": 0.3875696082948876
+    },
+    {
+      "id": "urgency-04",
+      "family": "urgency",
+      "expected": "todo",
+      "mode": "four_noul",
+      "request_sha256": "3c0c5bef5a61d614e876c0c06765856d0d7eb8292aa53858b18b688386f635f4",
+      "forward_ms": 17.021214007399976,
+      "answers": {
+        "related": {
+          "noul": 0.2728
+        },
+        "action": {
+          "noul": 0.0984
+        },
+        "urgent": {
+          "noul": 0.4859
+        },
+        "value": {
+          "noul": 0.7394
+        }
+      },
+      "predicted": "noise",
+      "signals": {
+        "related": 0.2728,
+        "action": 0.0984,
+        "urgent": 0.4859,
+        "value": 0.7394
+      },
+      "review": true
+    },
+    {
+      "id": "urgency-05",
+      "family": "urgency",
+      "expected": "valuable",
+      "mode": "choice",
+      "request_sha256": "4ca42c8242aaaaab80f91ea4c2225ed4f1fcd91c647318fab8a26391b6ef6644",
+      "forward_ms": 17.001463915221393,
+      "answers": {
+        "category": {
+          "choice": "urgent",
+          "probabilities": {
+            "urgent": 0.3509,
+            "todo": 0.3002,
+            "valuable": 0.282,
+            "noise": 0.067
+          },
+          "confidence": 0.08625256433022954
+        }
+      },
+      "predicted": "urgent",
+      "probabilities": {
+        "urgent": 0.3509,
+        "todo": 0.3002,
+        "valuable": 0.282,
+        "noise": 0.067
+      },
+      "confidence": 0.08625256433022954
+    },
+    {
+      "id": "urgency-05",
+      "family": "urgency",
+      "expected": "valuable",
+      "mode": "four_noul",
+      "request_sha256": "58f38575c5fd9e35a17c1f8ed29120d24b66899f7b9c78a37adb8ea443b2089e",
+      "forward_ms": 16.92560105584562,
+      "answers": {
+        "related": {
+          "noul": 0.4889
+        },
+        "action": {
+          "noul": 0.0016
+        },
+        "urgent": {
+          "noul": 0.0051
+        },
+        "value": {
+          "noul": 0.7144
+        }
+      },
+      "predicted": "noise",
+      "signals": {
+        "related": 0.4889,
+        "action": 0.0016,
+        "urgent": 0.0051,
+        "value": 0.7144
+      },
+      "review": true
+    },
+    {
+      "id": "urgency-06",
+      "family": "urgency",
+      "expected": "valuable",
+      "mode": "choice",
+      "request_sha256": "e1cafc9a41793547f1f9afcd05212bb6d63af85349a0bb0ceaae72c8f9117f03",
+      "forward_ms": 16.899748938158154,
+      "answers": {
+        "category": {
+          "choice": "valuable",
+          "probabilities": {
+            "urgent": 0.1415,
+            "todo": 0.3558,
+            "valuable": 0.4359,
+            "noise": 0.0668
+          },
+          "confidence": 0.1436341458339785
+        }
+      },
+      "predicted": "valuable",
+      "probabilities": {
+        "urgent": 0.1415,
+        "todo": 0.3558,
+        "valuable": 0.4359,
+        "noise": 0.0668
+      },
+      "confidence": 0.1436341458339785
+    },
+    {
+      "id": "urgency-06",
+      "family": "urgency",
+      "expected": "valuable",
+      "mode": "four_noul",
+      "request_sha256": "89b1a3ae52e9f24de80e724ae725ec59fec814ecdef2b760b24d496f01a689cf",
+      "forward_ms": 16.93440694361925,
+      "answers": {
+        "related": {
+          "noul": 0.1762
+        },
+        "action": {
+          "noul": 0.0052
+        },
+        "urgent": {
+          "noul": 0.6972
+        },
+        "value": {
+          "noul": 0.8766
+        }
+      },
+      "predicted": "noise",
+      "signals": {
+        "related": 0.1762,
+        "action": 0.0052,
+        "urgent": 0.6972,
+        "value": 0.8766
+      },
+      "review": false
+    },
+    {
+      "id": "urgency-07",
+      "family": "urgency",
+      "expected": "noise",
+      "mode": "choice",
+      "request_sha256": "b8af0b4e69a0c6bcae666485e9fc61b6217ef4ce222592ca6ff29708becfa43e",
+      "forward_ms": 16.94218791089952,
+      "answers": {
+        "category": {
+          "choice": "urgent",
+          "probabilities": {
+            "urgent": 0.5707,
+            "todo": 0.1398,
+            "valuable": 0.1661,
+            "noise": 0.1234
+          },
+          "confidence": 0.16930401832778508
+        }
+      },
+      "predicted": "urgent",
+      "probabilities": {
+        "urgent": 0.5707,
+        "todo": 0.1398,
+        "valuable": 0.1661,
+        "noise": 0.1234
+      },
+      "confidence": 0.16930401832778508
+    },
+    {
+      "id": "urgency-07",
+      "family": "urgency",
+      "expected": "noise",
+      "mode": "four_noul",
+      "request_sha256": "3bff6c88289c653315ac44a22f994a1aed9bb188034b60ea1125e9c7e428c406",
+      "forward_ms": 16.875416971743107,
+      "answers": {
+        "related": {
+          "noul": 0.1804
+        },
+        "action": {
+          "noul": 0.0012
+        },
+        "urgent": {
+          "noul": 0.9348
+        },
+        "value": {
+          "noul": 0.422
+        }
+      },
+      "predicted": "noise",
+      "signals": {
+        "related": 0.1804,
+        "action": 0.0012,
+        "urgent": 0.9348,
+        "value": 0.422
+      },
+      "review": false
+    },
+    {
+      "id": "urgency-08",
+      "family": "urgency",
+      "expected": "noise",
+      "mode": "choice",
+      "request_sha256": "74d9fe9715f260a1383aa1bca03e313c180fd8482c3bcb9acafa36ca30ffaacb",
+      "forward_ms": 17.25866098422557,
+      "answers": {
+        "category": {
+          "choice": "valuable",
+          "probabilities": {
+            "urgent": 0.3025,
+            "todo": 0.2179,
+            "valuable": 0.3649,
+            "noise": 0.1148
+          },
+          "confidence": 0.05499669533639906
+        }
+      },
+      "predicted": "valuable",
+      "probabilities": {
+        "urgent": 0.3025,
+        "todo": 0.2179,
+        "valuable": 0.3649,
+        "noise": 0.1148
+      },
+      "confidence": 0.05499669533639906
+    },
+    {
+      "id": "urgency-08",
+      "family": "urgency",
+      "expected": "noise",
+      "mode": "four_noul",
+      "request_sha256": "817dd4849a85325552816a0397dea5a2baf92ec0c56fb6ca1c109678b4ca4317",
+      "forward_ms": 17.062163911759853,
+      "answers": {
+        "related": {
+          "noul": 0.4092
+        },
+        "action": {
+          "noul": 0.0006
+        },
+        "urgent": {
+          "noul": 0.0369
+        },
+        "value": {
+          "noul": 0.9143
+        }
+      },
+      "predicted": "noise",
+      "signals": {
+        "related": 0.4092,
+        "action": 0.0006,
+        "urgent": 0.0369,
+        "value": 0.9143
+      },
+      "review": true
+    },
+    {
+      "id": "knowledge-01",
+      "family": "knowledge",
+      "expected": "urgent",
+      "mode": "choice",
+      "request_sha256": "39d00fdec8595caacf199b3ac3623d42393e8e8a6a5ee4c96207007ec7bdd838",
+      "forward_ms": 16.923847026191652,
+      "answers": {
+        "category": {
+          "choice": "urgent",
+          "probabilities": {
+            "urgent": 0.7508,
+            "todo": 0.0383,
+            "valuable": 0.0395,
+            "noise": 0.1715
+          },
+          "confidence": 0.4445216201324439
+        }
+      },
+      "predicted": "urgent",
+      "probabilities": {
+        "urgent": 0.7508,
+        "todo": 0.0383,
+        "valuable": 0.0395,
+        "noise": 0.1715
+      },
+      "confidence": 0.4445216201324439
+    },
+    {
+      "id": "knowledge-01",
+      "family": "knowledge",
+      "expected": "urgent",
+      "mode": "four_noul",
+      "request_sha256": "a33f7812cfa29b22de5d58596d54658e8ad6c6fd6bd4d79f21d46ffe09b7dce3",
+      "forward_ms": 16.839321004226804,
+      "answers": {
+        "related": {
+          "noul": 0.6151
+        },
+        "action": {
+          "noul": 0.0024
+        },
+        "urgent": {
+          "noul": 0.1315
+        },
+        "value": {
+          "noul": 0.9698
+        }
+      },
+      "predicted": "valuable",
+      "signals": {
+        "related": 0.6151,
+        "action": 0.0024,
+        "urgent": 0.1315,
+        "value": 0.9698
+      },
+      "review": true
+    },
+    {
+      "id": "knowledge-02",
+      "family": "knowledge",
+      "expected": "urgent",
+      "mode": "choice",
+      "request_sha256": "7d96c3bcbecaacd65a2f8d87b7344b68c95ac6d120d7a5ea958a93557a9b6d29",
+      "forward_ms": 16.37349696829915,
+      "answers": {
+        "category": {
+          "choice": "urgent",
+          "probabilities": {
+            "urgent": 0.9783,
+            "todo": 0.0099,
+            "valuable": 0.0045,
+            "noise": 0.0073
+          },
+          "confidence": 0.9079284429256547
+        }
+      },
+      "predicted": "urgent",
+      "probabilities": {
+        "urgent": 0.9783,
+        "todo": 0.0099,
+        "valuable": 0.0045,
+        "noise": 0.0073
+      },
+      "confidence": 0.9079284429256547
+    },
+    {
+      "id": "knowledge-02",
+      "family": "knowledge",
+      "expected": "urgent",
+      "mode": "four_noul",
+      "request_sha256": "a1884ce57bb84e618ac6377def7281d73d5ab96d725ce2e241ed073818e3885d",
+      "forward_ms": 16.824100981466472,
+      "answers": {
+        "related": {
+          "noul": 0.6728
+        },
+        "action": {
+          "noul": 0.0355
+        },
+        "urgent": {
+          "noul": 0.7985
+        },
+        "value": {
+          "noul": 0.9611
+        }
+      },
+      "predicted": "valuable",
+      "signals": {
+        "related": 0.6728,
+        "action": 0.0355,
+        "urgent": 0.7985,
+        "value": 0.9611
+      },
+      "review": true
+    },
+    {
+      "id": "knowledge-03",
+      "family": "knowledge",
+      "expected": "todo",
+      "mode": "choice",
+      "request_sha256": "5a80f4f5a76930726df0ab3457ed2782f2cccb65f812a6c2d0cf9ec04b212b01",
+      "forward_ms": 16.886406927369535,
+      "answers": {
+        "category": {
+          "choice": "urgent",
+          "probabilities": {
+            "urgent": 0.8594,
+            "todo": 0.0722,
+            "valuable": 0.0363,
+            "noise": 0.032
+          },
+          "confidence": 0.6027879666583401
+        }
+      },
+      "predicted": "urgent",
+      "probabilities": {
+        "urgent": 0.8594,
+        "todo": 0.0722,
+        "valuable": 0.0363,
+        "noise": 0.032
+      },
+      "confidence": 0.6027879666583401
+    },
+    {
+      "id": "knowledge-03",
+      "family": "knowledge",
+      "expected": "todo",
+      "mode": "four_noul",
+      "request_sha256": "e8a48af2fba1a025a37576d0db055027c6e3d032750ee0f3913626812906b6d9",
+      "forward_ms": 16.839709947817028,
+      "answers": {
+        "related": {
+          "noul": 0.7881
+        },
+        "action": {
+          "noul": 0.2595
+        },
+        "urgent": {
+          "noul": 0.9797
+        },
+        "value": {
+          "noul": 0.948
+        }
+      },
+      "predicted": "valuable",
+      "signals": {
+        "related": 0.7881,
+        "action": 0.2595,
+        "urgent": 0.9797,
+        "value": 0.948
+      },
+      "review": true
+    },
+    {
+      "id": "knowledge-04",
+      "family": "knowledge",
+      "expected": "todo",
+      "mode": "choice",
+      "request_sha256": "063cbdceb06b701deb7710f987f42ef7d7a9d02fd029487803edba7de088e388",
+      "forward_ms": 16.90798904746771,
+      "answers": {
+        "category": {
+          "choice": "urgent",
+          "probabilities": {
+            "urgent": 0.8078,
+            "todo": 0.1288,
+            "valuable": 0.0399,
+            "noise": 0.0235
+          },
+          "confidence": 0.5289783443701994
+        }
+      },
+      "predicted": "urgent",
+      "probabilities": {
+        "urgent": 0.8078,
+        "todo": 0.1288,
+        "valuable": 0.0399,
+        "noise": 0.0235
+      },
+      "confidence": 0.5289783443701994
+    },
+    {
+      "id": "knowledge-04",
+      "family": "knowledge",
+      "expected": "todo",
+      "mode": "four_noul",
+      "request_sha256": "948747c5fef90c334cd174b53cb312aefa5d6e3169b830325dbeac016f57c77f",
+      "forward_ms": 16.806328087113798,
+      "answers": {
+        "related": {
+          "noul": 0.821
+        },
+        "action": {
+          "noul": 0.1782
+        },
+        "urgent": {
+          "noul": 0.5881
+        },
+        "value": {
+          "noul": 0.9891
+        }
+      },
+      "predicted": "valuable",
+      "signals": {
+        "related": 0.821,
+        "action": 0.1782,
+        "urgent": 0.5881,
+        "value": 0.9891
+      },
+      "review": false
+    },
+    {
+      "id": "knowledge-05",
+      "family": "knowledge",
+      "expected": "valuable",
+      "mode": "choice",
+      "request_sha256": "d69b5ae2fe727a8411665d1f679be6cb5b1adc65dd3e38af90763b830694e577",
+      "forward_ms": 16.943776980042458,
+      "answers": {
+        "category": {
+          "choice": "valuable",
+          "probabilities": {
+            "urgent": 0.246,
+            "todo": 0.3061,
+            "valuable": 0.3469,
+            "noise": 0.101
+          },
+          "confidence": 0.05781557697536588
+        }
+      },
+      "predicted": "valuable",
+      "probabilities": {
+        "urgent": 0.246,
+        "todo": 0.3061,
+        "valuable": 0.3469,
+        "noise": 0.101
+      },
+      "confidence": 0.05781557697536588
+    },
+    {
+      "id": "knowledge-05",
+      "family": "knowledge",
+      "expected": "valuable",
+      "mode": "four_noul",
+      "request_sha256": "96ce0d15593d2356b2083fe254e18826b4ce8dc138558b209633b8ceb8d6a2ff",
+      "forward_ms": 16.84462500270456,
+      "answers": {
+        "related": {
+          "noul": 0.7417
+        },
+        "action": {
+          "noul": 0.0006
+        },
+        "urgent": {
+          "noul": 0.0182
+        },
+        "value": {
+          "noul": 0.7229
+        }
+      },
+      "predicted": "valuable",
+      "signals": {
+        "related": 0.7417,
+        "action": 0.0006,
+        "urgent": 0.0182,
+        "value": 0.7229
+      },
+      "review": true
+    },
+    {
+      "id": "knowledge-06",
+      "family": "knowledge",
+      "expected": "valuable",
+      "mode": "choice",
+      "request_sha256": "5cbf090356cfe9ec2fd80e513c6b23babf0e88912446df5ac0ed371c0de23902",
+      "forward_ms": 17.150964005850255,
+      "answers": {
+        "category": {
+          "choice": "urgent",
+          "probabilities": {
+            "urgent": 0.9193,
+            "todo": 0.0359,
+            "valuable": 0.0289,
+            "noise": 0.0159
+          },
+          "confidence": 0.7365761514739209
+        }
+      },
+      "predicted": "urgent",
+      "probabilities": {
+        "urgent": 0.9193,
+        "todo": 0.0359,
+        "valuable": 0.0289,
+        "noise": 0.0159
+      },
+      "confidence": 0.7365761514739209
+    },
+    {
+      "id": "knowledge-06",
+      "family": "knowledge",
+      "expected": "valuable",
+      "mode": "four_noul",
+      "request_sha256": "3bb3f466de4f7780faa0814d15273cd355fe7c9de3f80f562ad716c791ef6c15",
+      "forward_ms": 17.02251296956092,
+      "answers": {
+        "related": {
+          "noul": 0.7153
+        },
+        "action": {
+          "noul": 0.0007
+        },
+        "urgent": {
+          "noul": 0.3214
+        },
+        "value": {
+          "noul": 0.9873
+        }
+      },
+      "predicted": "valuable",
+      "signals": {
+        "related": 0.7153,
+        "action": 0.0007,
+        "urgent": 0.3214,
+        "value": 0.9873
+      },
+      "review": true
+    },
+    {
+      "id": "knowledge-07",
+      "family": "knowledge",
+      "expected": "noise",
+      "mode": "choice",
+      "request_sha256": "ea48cf5f8428b239b79b464c28cd910ff463e22f3a32dc5bc6b7ccd264c94811",
+      "forward_ms": 17.168232006952167,
+      "answers": {
+        "category": {
+          "choice": "valuable",
+          "probabilities": {
+            "urgent": 0.0017,
+            "todo": 0.0036,
+            "valuable": 0.986,
+            "noise": 0.0087
+          },
+          "confidence": 0.9379268392698704
+        }
+      },
+      "predicted": "valuable",
+      "probabilities": {
+        "urgent": 0.0017,
+        "todo": 0.0036,
+        "valuable": 0.986,
+        "noise": 0.0087
+      },
+      "confidence": 0.9379268392698704
+    },
+    {
+      "id": "knowledge-07",
+      "family": "knowledge",
+      "expected": "noise",
+      "mode": "four_noul",
+      "request_sha256": "88c4476e967cda457a143f5a6d980ad1a550f0b113fe36ee02b5ab9f74405f0d",
+      "forward_ms": 17.055005067959428,
+      "answers": {
+        "related": {
+          "noul": 0.4911
+        },
+        "action": {
+          "noul": 0.0006
+        },
+        "urgent": {
+          "noul": 0.017
+        },
+        "value": {
+          "noul": 0.5929
+        }
+      },
+      "predicted": "noise",
+      "signals": {
+        "related": 0.4911,
+        "action": 0.0006,
+        "urgent": 0.017,
+        "value": 0.5929
+      },
+      "review": true
+    },
+    {
+      "id": "knowledge-08",
+      "family": "knowledge",
+      "expected": "noise",
+      "mode": "choice",
+      "request_sha256": "a537c698171445dd82b62f9631276e17a0b1ffd8761d99504bfee1a98275eec0",
+      "forward_ms": 17.10667205043137,
+      "answers": {
+        "category": {
+          "choice": "urgent",
+          "probabilities": {
+            "urgent": 0.6752,
+            "todo": 0.0041,
+            "valuable": 0.0227,
+            "noise": 0.2979
+          },
+          "confidence": 0.47002385253732193
+        }
+      },
+      "predicted": "urgent",
+      "probabilities": {
+        "urgent": 0.6752,
+        "todo": 0.0041,
+        "valuable": 0.0227,
+        "noise": 0.2979
+      },
+      "confidence": 0.47002385253732193
+    },
+    {
+      "id": "knowledge-08",
+      "family": "knowledge",
+      "expected": "noise",
+      "mode": "four_noul",
+      "request_sha256": "e8285cc154c9ece110a88ea772cde35f01cb6db76fb682c6827ef08f3681dfde",
+      "forward_ms": 17.032266943715513,
+      "answers": {
+        "related": {
+          "noul": 0.5122
+        },
+        "action": {
+          "noul": 0.0108
+        },
+        "urgent": {
+          "noul": 0.9308
+        },
+        "value": {
+          "noul": 0.9707
+        }
+      },
+      "predicted": "valuable",
+      "signals": {
+        "related": 0.5122,
+        "action": 0.0108,
+        "urgent": 0.9308,
+        "value": 0.9707
+      },
+      "review": true
+    },
+    {
+      "id": "conditional-01",
+      "family": "conditional",
+      "expected": "urgent",
+      "mode": "choice",
+      "request_sha256": "e3c5ace940a1a1b1d7fda17b16f1642bb2901b3d55118f1e2b30dfba0125ab4b",
+      "forward_ms": 16.90323802176863,
+      "answers": {
+        "category": {
+          "choice": "urgent",
+          "probabilities": {
+            "urgent": 0.8194,
+            "todo": 0.1075,
+            "valuable": 0.0354,
+            "noise": 0.0377
+          },
+          "confidence": 0.5347391182391628
+        }
+      },
+      "predicted": "urgent",
+      "probabilities": {
+        "urgent": 0.8194,
+        "todo": 0.1075,
+        "valuable": 0.0354,
+        "noise": 0.0377
+      },
+      "confidence": 0.5347391182391628
+    },
+    {
+      "id": "conditional-01",
+      "family": "conditional",
+      "expected": "urgent",
+      "mode": "four_noul",
+      "request_sha256": "76b45208ea9eac4cd7347434c85cab4d479787d28692205a6a0cc7eaa51a17c5",
+      "forward_ms": 16.31467998959124,
+      "answers": {
+        "related": {
+          "noul": 0.6706
+        },
+        "action": {
+          "noul": 0.4735
+        },
+        "urgent": {
+          "noul": 0.9847
+        },
+        "value": {
+          "noul": 0.3368
+        }
+      },
+      "predicted": "noise",
+      "signals": {
+        "related": 0.6706,
+        "action": 0.4735,
+        "urgent": 0.9847,
+        "value": 0.3368
+      },
+      "review": true
+    },
+    {
+      "id": "conditional-02",
+      "family": "conditional",
+      "expected": "urgent",
+      "mode": "choice",
+      "request_sha256": "fb65e8d6c22dc984e1efd0c1ac27270aaeba85045cc9ab3d808ba3b1c4bb81f8",
+      "forward_ms": 16.962054069153965,
+      "answers": {
+        "category": {
+          "choice": "urgent",
+          "probabilities": {
+            "urgent": 0.6126,
+            "todo": 0.1811,
+            "valuable": 0.1284,
+            "noise": 0.0779
+          },
+          "confidence": 0.22671475089085524
+        }
+      },
+      "predicted": "urgent",
+      "probabilities": {
+        "urgent": 0.6126,
+        "todo": 0.1811,
+        "valuable": 0.1284,
+        "noise": 0.0779
+      },
+      "confidence": 0.22671475089085524
+    },
+    {
+      "id": "conditional-02",
+      "family": "conditional",
+      "expected": "urgent",
+      "mode": "four_noul",
+      "request_sha256": "fdce81cfb6e4193f0adc68d80b1fbe735430eab97bb037293a6ed2696dfd0599",
+      "forward_ms": 16.808029962703586,
+      "answers": {
+        "related": {
+          "noul": 0.0347
+        },
+        "action": {
+          "noul": 0.0039
+        },
+        "urgent": {
+          "noul": 0.4321
+        },
+        "value": {
+          "noul": 0.0412
+        }
+      },
+      "predicted": "noise",
+      "signals": {
+        "related": 0.0347,
+        "action": 0.0039,
+        "urgent": 0.4321,
+        "value": 0.0412
+      },
+      "review": false
+    },
+    {
+      "id": "conditional-03",
+      "family": "conditional",
+      "expected": "todo",
+      "mode": "choice",
+      "request_sha256": "2085eb649e2094d72de7b0f41c5e9f8e9ff60c2352e4289b77e2fe518dd0d145",
+      "forward_ms": 17.14055601041764,
+      "answers": {
+        "category": {
+          "choice": "todo",
+          "probabilities": {
+            "urgent": 0.3899,
+            "todo": 0.4488,
+            "valuable": 0.1117,
+            "noise": 0.0496
+          },
+          "confidence": 0.19166537457561827
+        }
+      },
+      "predicted": "todo",
+      "probabilities": {
+        "urgent": 0.3899,
+        "todo": 0.4488,
+        "valuable": 0.1117,
+        "noise": 0.0496
+      },
+      "confidence": 0.19166537457561827
+    },
+    {
+      "id": "conditional-03",
+      "family": "conditional",
+      "expected": "todo",
+      "mode": "four_noul",
+      "request_sha256": "0cccaeb951e01acb23c00f0bccf86c5550cd484f3643fc3739a1753f91f8f038",
+      "forward_ms": 17.14444998651743,
+      "answers": {
+        "related": {
+          "noul": 0.8556
+        },
+        "action": {
+          "noul": 0.7566
+        },
+        "urgent": {
+          "noul": 0.9665
+        },
+        "value": {
+          "noul": 0.9019
+        }
+      },
+      "predicted": "urgent",
+      "signals": {
+        "related": 0.8556,
+        "action": 0.7566,
+        "urgent": 0.9665,
+        "value": 0.9019
+      },
+      "review": false
+    },
+    {
+      "id": "conditional-04",
+      "family": "conditional",
+      "expected": "todo",
+      "mode": "choice",
+      "request_sha256": "6ce30a3bf7bb8f91d71d1eba60e673f13ee5a7141b82caf149b7c7dbd49ff4e4",
+      "forward_ms": 16.937175998464227,
+      "answers": {
+        "category": {
+          "choice": "urgent",
+          "probabilities": {
+            "urgent": 0.6661,
+            "todo": 0.1893,
+            "valuable": 0.1096,
+            "noise": 0.035
+          },
+          "confidence": 0.31799002829170575
+        }
+      },
+      "predicted": "urgent",
+      "probabilities": {
+        "urgent": 0.6661,
+        "todo": 0.1893,
+        "valuable": 0.1096,
+        "noise": 0.035
+      },
+      "confidence": 0.31799002829170575
+    },
+    {
+      "id": "conditional-04",
+      "family": "conditional",
+      "expected": "todo",
+      "mode": "four_noul",
+      "request_sha256": "26b1a32af59516422a0006127f9884dcfe23b4fa2cd009cab1ad4fdfd5da1af6",
+      "forward_ms": 16.223861020989716,
+      "answers": {
+        "related": {
+          "noul": 0.6817
+        },
+        "action": {
+          "noul": 0.4434
+        },
+        "urgent": {
+          "noul": 0.9425
+        },
+        "value": {
+          "noul": 0.941
+        }
+      },
+      "predicted": "valuable",
+      "signals": {
+        "related": 0.6817,
+        "action": 0.4434,
+        "urgent": 0.9425,
+        "value": 0.941
+      },
+      "review": true
+    },
+    {
+      "id": "conditional-05",
+      "family": "conditional",
+      "expected": "valuable",
+      "mode": "choice",
+      "request_sha256": "70fb063b3552fb01866b596d1ea49cc605b53ecaf61a3a94a0e6eb254a6749e5",
+      "forward_ms": 16.914232983253896,
+      "answers": {
+        "category": {
+          "choice": "todo",
+          "probabilities": {
+            "urgent": 0.1829,
+            "todo": 0.3695,
+            "valuable": 0.3526,
+            "noise": 0.0949
+          },
+          "confidence": 0.08413133031448772
+        }
+      },
+      "predicted": "todo",
+      "probabilities": {
+        "urgent": 0.1829,
+        "todo": 0.3695,
+        "valuable": 0.3526,
+        "noise": 0.0949
+      },
+      "confidence": 0.08413133031448772
+    },
+    {
+      "id": "conditional-05",
+      "family": "conditional",
+      "expected": "valuable",
+      "mode": "four_noul",
+      "request_sha256": "0335649ad46e60fe72fb5eeac62ea5b657df0ed55e77e54491ce8285438ec574",
+      "forward_ms": 16.87473594211042,
+      "answers": {
+        "related": {
+          "noul": 0.7506
+        },
+        "action": {
+          "noul": 0.0013
+        },
+        "urgent": {
+          "noul": 0.657
+        },
+        "value": {
+          "noul": 0.8985
+        }
+      },
+      "predicted": "valuable",
+      "signals": {
+        "related": 0.7506,
+        "action": 0.0013,
+        "urgent": 0.657,
+        "value": 0.8985
+      },
+      "review": false
+    },
+    {
+      "id": "conditional-06",
+      "family": "conditional",
+      "expected": "valuable",
+      "mode": "choice",
+      "request_sha256": "6afe953792848fba379f3f025101c75b28e64bd8a8df9d88df8f6dc512bcd162",
+      "forward_ms": 16.869770013727248,
+      "answers": {
+        "category": {
+          "choice": "todo",
+          "probabilities": {
+            "urgent": 0.163,
+            "todo": 0.526,
+            "valuable": 0.1531,
+            "noise": 0.1579
+          },
+          "confidence": 0.12547097208503188
+        }
+      },
+      "predicted": "todo",
+      "probabilities": {
+        "urgent": 0.163,
+        "todo": 0.526,
+        "valuable": 0.1531,
+        "noise": 0.1579
+      },
+      "confidence": 0.12547097208503188
+    },
+    {
+      "id": "conditional-06",
+      "family": "conditional",
+      "expected": "valuable",
+      "mode": "four_noul",
+      "request_sha256": "4fe1fea1334f69242848c1dbd9e2dc716c2a38276ab55853517d532bd1b62b4c",
+      "forward_ms": 16.845937934704125,
+      "answers": {
+        "related": {
+          "noul": 0.1944
+        },
+        "action": {
+          "noul": 0.0026
+        },
+        "urgent": {
+          "noul": 0.9595
+        },
+        "value": {
+          "noul": 0.944
+        }
+      },
+      "predicted": "noise",
+      "signals": {
+        "related": 0.1944,
+        "action": 0.0026,
+        "urgent": 0.9595,
+        "value": 0.944
+      },
+      "review": false
+    },
+    {
+      "id": "conditional-07",
+      "family": "conditional",
+      "expected": "noise",
+      "mode": "choice",
+      "request_sha256": "6b3932788fb340372fd059dfe591dfdd83598f5cd7c8106653def6843b9afd43",
+      "forward_ms": 16.93842199165374,
+      "answers": {
+        "category": {
+          "choice": "urgent",
+          "probabilities": {
+            "urgent": 0.5123,
+            "todo": 0.1798,
+            "valuable": 0.2458,
+            "noise": 0.0621
+          },
+          "confidence": 0.15691731186469293
+        }
+      },
+      "predicted": "urgent",
+      "probabilities": {
+        "urgent": 0.5123,
+        "todo": 0.1798,
+        "valuable": 0.2458,
+        "noise": 0.0621
+      },
+      "confidence": 0.15691731186469293
+    },
+    {
+      "id": "conditional-07",
+      "family": "conditional",
+      "expected": "noise",
+      "mode": "four_noul",
+      "request_sha256": "13539625dc01720d59567e42bdfc4ee6d6d65794491783c33fa2027a7750bfc6",
+      "forward_ms": 16.864806995727122,
+      "answers": {
+        "related": {
+          "noul": 0.3567
+        },
+        "action": {
+          "noul": 0.0075
+        },
+        "urgent": {
+          "noul": 0.4225
+        },
+        "value": {
+          "noul": 0.378
+        }
+      },
+      "predicted": "noise",
+      "signals": {
+        "related": 0.3567,
+        "action": 0.0075,
+        "urgent": 0.4225,
+        "value": 0.378
+      },
+      "review": true
+    },
+    {
+      "id": "conditional-08",
+      "family": "conditional",
+      "expected": "noise",
+      "mode": "choice",
+      "request_sha256": "8b570638ad1f752eba0cb43f6ee3a03ded4a6801455b72de73d95deb61002dae",
+      "forward_ms": 16.89800596795976,
+      "answers": {
+        "category": {
+          "choice": "todo",
+          "probabilities": {
+            "urgent": 0.1223,
+            "todo": 0.3886,
+            "valuable": 0.3484,
+            "noise": 0.1407
+          },
+          "confidence": 0.08561880826180013
+        }
+      },
+      "predicted": "todo",
+      "probabilities": {
+        "urgent": 0.1223,
+        "todo": 0.3886,
+        "valuable": 0.3484,
+        "noise": 0.1407
+      },
+      "confidence": 0.08561880826180013
+    },
+    {
+      "id": "conditional-08",
+      "family": "conditional",
+      "expected": "noise",
+      "mode": "four_noul",
+      "request_sha256": "31dd25e89cfdfd37f62217aa3e3a76d55f9b09334aaaa449aa23230bfff654de",
+      "forward_ms": 16.815320937894285,
+      "answers": {
+        "related": {
+          "noul": 0.1229
+        },
+        "action": {
+          "noul": 0.0008
+        },
+        "urgent": {
+          "noul": 0.8257
+        },
+        "value": {
+          "noul": 0.2116
+        }
+      },
+      "predicted": "noise",
+      "signals": {
+        "related": 0.1229,
+        "action": 0.0008,
+        "urgent": 0.8257,
+        "value": 0.2116
+      },
+      "review": false
+    },
+    {
+      "id": "untrusted_content-01",
+      "family": "untrusted_content",
+      "expected": "urgent",
+      "mode": "choice",
+      "request_sha256": "fdc15cd32c01c1404d4ce7461a73ef20677d5b98b86750072cc1db6a15c20b14",
+      "forward_ms": 17.170611070469022,
+      "answers": {
+        "category": {
+          "choice": "urgent",
+          "probabilities": {
+            "urgent": 0.9111,
+            "todo": 0.0201,
+            "valuable": 0.0312,
+            "noise": 0.0376
+          },
+          "confidence": 0.7151122436939525
+        }
+      },
+      "predicted": "urgent",
+      "probabilities": {
+        "urgent": 0.9111,
+        "todo": 0.0201,
+        "valuable": 0.0312,
+        "noise": 0.0376
+      },
+      "confidence": 0.7151122436939525
+    },
+    {
+      "id": "untrusted_content-01",
+      "family": "untrusted_content",
+      "expected": "urgent",
+      "mode": "four_noul",
+      "request_sha256": "611246190b3bde1294f5fda980b0023fb9a9535346ebacc976e89bde4d775ac1",
+      "forward_ms": 17.104568076319993,
+      "answers": {
+        "related": {
+          "noul": 0.8133
+        },
+        "action": {
+          "noul": 0.0209
+        },
+        "urgent": {
+          "noul": 0.9587
+        },
+        "value": {
+          "noul": 0.896
+        }
+      },
+      "predicted": "valuable",
+      "signals": {
+        "related": 0.8133,
+        "action": 0.0209,
+        "urgent": 0.9587,
+        "value": 0.896
+      },
+      "review": false
+    },
+    {
+      "id": "untrusted_content-02",
+      "family": "untrusted_content",
+      "expected": "urgent",
+      "mode": "choice",
+      "request_sha256": "6c32e9e70e88fbe1dff838a16ca196734bbc91974448f41895fab9c96daef1d8",
+      "forward_ms": 17.160856048576534,
+      "answers": {
+        "category": {
+          "choice": "urgent",
+          "probabilities": {
+            "urgent": 0.7376,
+            "todo": 0.0596,
+            "valuable": 0.1262,
+            "noise": 0.0765
+          },
+          "confidence": 0.38650933525231834
+        }
+      },
+      "predicted": "urgent",
+      "probabilities": {
+        "urgent": 0.7376,
+        "todo": 0.0596,
+        "valuable": 0.1262,
+        "noise": 0.0765
+      },
+      "confidence": 0.38650933525231834
+    },
+    {
+      "id": "untrusted_content-02",
+      "family": "untrusted_content",
+      "expected": "urgent",
+      "mode": "four_noul",
+      "request_sha256": "075161852e16c5a6478cb6675f0d6436eee867b4b64b4d91d10f5cbbf8063331",
+      "forward_ms": 17.17909495346248,
+      "answers": {
+        "related": {
+          "noul": 0.5941
+        },
+        "action": {
+          "noul": 0.0044
+        },
+        "urgent": {
+          "noul": 0.9478
+        },
+        "value": {
+          "noul": 0.5871
+        }
+      },
+      "predicted": "valuable",
+      "signals": {
+        "related": 0.5941,
+        "action": 0.0044,
+        "urgent": 0.9478,
+        "value": 0.5871
+      },
+      "review": true
+    },
+    {
+      "id": "untrusted_content-03",
+      "family": "untrusted_content",
+      "expected": "todo",
+      "mode": "choice",
+      "request_sha256": "beb041771f4f9893956fede6e811b23aeaa96253dd2ac167604bd0c97814d0e4",
+      "forward_ms": 16.931684920564294,
+      "answers": {
+        "category": {
+          "choice": "urgent",
+          "probabilities": {
+            "urgent": 0.8138,
+            "todo": 0.0333,
+            "valuable": 0.0549,
+            "noise": 0.098
+          },
+          "confidence": 0.5181038383604812
+        }
+      },
+      "predicted": "urgent",
+      "probabilities": {
+        "urgent": 0.8138,
+        "todo": 0.0333,
+        "valuable": 0.0549,
+        "noise": 0.098
+      },
+      "confidence": 0.5181038383604812
+    },
+    {
+      "id": "untrusted_content-03",
+      "family": "untrusted_content",
+      "expected": "todo",
+      "mode": "four_noul",
+      "request_sha256": "df11ef4306f7d4142a37abba2dd774798be1d92436494b3a068f2b1889736e32",
+      "forward_ms": 16.264267032966018,
+      "answers": {
+        "related": {
+          "noul": 0.5593
+        },
+        "action": {
+          "noul": 0.0211
+        },
+        "urgent": {
+          "noul": 0.9622
+        },
+        "value": {
+          "noul": 0.9492
+        }
+      },
+      "predicted": "valuable",
+      "signals": {
+        "related": 0.5593,
+        "action": 0.0211,
+        "urgent": 0.9622,
+        "value": 0.9492
+      },
+      "review": true
+    },
+    {
+      "id": "untrusted_content-04",
+      "family": "untrusted_content",
+      "expected": "todo",
+      "mode": "choice",
+      "request_sha256": "d8f5ad061976f6c8ef65bd53c6bd4d9aa9776ccbd941b602a7a3bb1ed878eb1a",
+      "forward_ms": 16.615175059996545,
+      "answers": {
+        "category": {
+          "choice": "urgent",
+          "probabilities": {
+            "urgent": 0.8604,
+            "todo": 0.0409,
+            "valuable": 0.0559,
+            "noise": 0.0428
+          },
+          "confidence": 0.5988098789568952
+        }
+      },
+      "predicted": "urgent",
+      "probabilities": {
+        "urgent": 0.8604,
+        "todo": 0.0409,
+        "valuable": 0.0559,
+        "noise": 0.0428
+      },
+      "confidence": 0.5988098789568952
+    },
+    {
+      "id": "untrusted_content-04",
+      "family": "untrusted_content",
+      "expected": "todo",
+      "mode": "four_noul",
+      "request_sha256": "d9c8e9a9da7ca40fe4aad24b0c8f76b078148d868be5e7f3d5506f920ba69948",
+      "forward_ms": 17.098429962061346,
+      "answers": {
+        "related": {
+          "noul": 0.3045
+        },
+        "action": {
+          "noul": 0.0525
+        },
+        "urgent": {
+          "noul": 0.8944
+        },
+        "value": {
+          "noul": 0.8791
+        }
+      },
+      "predicted": "noise",
+      "signals": {
+        "related": 0.3045,
+        "action": 0.0525,
+        "urgent": 0.8944,
+        "value": 0.8791
+      },
+      "review": true
+    },
+    {
+      "id": "untrusted_content-05",
+      "family": "untrusted_content",
+      "expected": "valuable",
+      "mode": "choice",
+      "request_sha256": "1924a3d7b964c612717cbb65cc6c1a24299d83ac417708b3c99f41c8731ef4d0",
+      "forward_ms": 16.93421695381403,
+      "answers": {
+        "category": {
+          "choice": "todo",
+          "probabilities": {
+            "urgent": 0.0645,
+            "todo": 0.8167,
+            "valuable": 0.1114,
+            "noise": 0.0075
+          },
+          "confidence": 0.550487741561321
+        }
+      },
+      "predicted": "todo",
+      "probabilities": {
+        "urgent": 0.0645,
+        "todo": 0.8167,
+        "valuable": 0.1114,
+        "noise": 0.0075
+      },
+      "confidence": 0.550487741561321
+    },
+    {
+      "id": "untrusted_content-05",
+      "family": "untrusted_content",
+      "expected": "valuable",
+      "mode": "four_noul",
+      "request_sha256": "891c94dd1334313fd806fc7af6e425bd45e61dd8eb018fb7fa0c9368c86ade26",
+      "forward_ms": 16.81940699927509,
+      "answers": {
+        "related": {
+          "noul": 0.7538
+        },
+        "action": {
+          "noul": 0.0008
+        },
+        "urgent": {
+          "noul": 0.3303
+        },
+        "value": {
+          "noul": 0.993
+        }
+      },
+      "predicted": "valuable",
+      "signals": {
+        "related": 0.7538,
+        "action": 0.0008,
+        "urgent": 0.3303,
+        "value": 0.993
+      },
+      "review": false
+    },
+    {
+      "id": "untrusted_content-06",
+      "family": "untrusted_content",
+      "expected": "valuable",
+      "mode": "choice",
+      "request_sha256": "64ad40d9c239861eb6313ad85442950cf5db56254e0332918bb7cb2e7efd4024",
+      "forward_ms": 16.913608997128904,
+      "answers": {
+        "category": {
+          "choice": "valuable",
+          "probabilities": {
+            "urgent": 0.2313,
+            "todo": 0.1493,
+            "valuable": 0.4528,
+            "noise": 0.1666
+          },
+          "confidence": 0.07675250067054429
+        }
+      },
+      "predicted": "valuable",
+      "probabilities": {
+        "urgent": 0.2313,
+        "todo": 0.1493,
+        "valuable": 0.4528,
+        "noise": 0.1666
+      },
+      "confidence": 0.07675250067054429
+    },
+    {
+      "id": "untrusted_content-06",
+      "family": "untrusted_content",
+      "expected": "valuable",
+      "mode": "four_noul",
+      "request_sha256": "13eeaddc911a9db5dc66a7cdc6e18425527ff989422059ce9425029b2bbd8ec6",
+      "forward_ms": 16.85965491924435,
+      "answers": {
+        "related": {
+          "noul": 0.5902
+        },
+        "action": {
+          "noul": 0.0009
+        },
+        "urgent": {
+          "noul": 0.0058
+        },
+        "value": {
+          "noul": 0.0139
+        }
+      },
+      "predicted": "noise",
+      "signals": {
+        "related": 0.5902,
+        "action": 0.0009,
+        "urgent": 0.0058,
+        "value": 0.0139
+      },
+      "review": true
+    },
+    {
+      "id": "untrusted_content-07",
+      "family": "untrusted_content",
+      "expected": "noise",
+      "mode": "choice",
+      "request_sha256": "3ee570d78ce82e08a345ac9893d4c4950907b02f259a7e7ce24afae93fbaadd7",
+      "forward_ms": 16.963936970569193,
+      "answers": {
+        "category": {
+          "choice": "urgent",
+          "probabilities": {
+            "urgent": 0.8859,
+            "todo": 0.0224,
+            "valuable": 0.0473,
+            "noise": 0.0445
+          },
+          "confidence": 0.6573202470917509
+        }
+      },
+      "predicted": "urgent",
+      "probabilities": {
+        "urgent": 0.8859,
+        "todo": 0.0224,
+        "valuable": 0.0473,
+        "noise": 0.0445
+      },
+      "confidence": 0.6573202470917509
+    },
+    {
+      "id": "untrusted_content-07",
+      "family": "untrusted_content",
+      "expected": "noise",
+      "mode": "four_noul",
+      "request_sha256": "803f4d69d6a6b91a633f3ff93f8d5a0b5f8a73d9d2993b1e1f8b5d11706d3ea2",
+      "forward_ms": 16.89150300808251,
+      "answers": {
+        "related": {
+          "noul": 0.0293
+        },
+        "action": {
+          "noul": 0.0017
+        },
+        "urgent": {
+          "noul": 0.7685
+        },
+        "value": {
+          "noul": 0.059
+        }
+      },
+      "predicted": "noise",
+      "signals": {
+        "related": 0.0293,
+        "action": 0.0017,
+        "urgent": 0.7685,
+        "value": 0.059
+      },
+      "review": false
+    },
+    {
+      "id": "untrusted_content-08",
+      "family": "untrusted_content",
+      "expected": "noise",
+      "mode": "choice",
+      "request_sha256": "c31c68a4b0e686150d76d45b3acca03a6beb4868e8db69d6f420fac22411dfce",
+      "forward_ms": 16.257134033367038,
+      "answers": {
+        "category": {
+          "choice": "todo",
+          "probabilities": {
+            "urgent": 0.0402,
+            "todo": 0.7953,
+            "valuable": 0.1128,
+            "noise": 0.0516
+          },
+          "confidence": 0.4874382568200747
+        }
+      },
+      "predicted": "todo",
+      "probabilities": {
+        "urgent": 0.0402,
+        "todo": 0.7953,
+        "valuable": 0.1128,
+        "noise": 0.0516
+      },
+      "confidence": 0.4874382568200747
+    },
+    {
+      "id": "untrusted_content-08",
+      "family": "untrusted_content",
+      "expected": "noise",
+      "mode": "four_noul",
+      "request_sha256": "8cf3ba8afda20b0c6b49c3c0539676cc4d9896cfd46cdc2d3aa7b9147bea15c4",
+      "forward_ms": 16.821341938339174,
+      "answers": {
+        "related": {
+          "noul": 0.6728
+        },
+        "action": {
+          "noul": 0.0016
+        },
+        "urgent": {
+          "noul": 0.094
+        },
+        "value": {
+          "noul": 0.8495
+        }
+      },
+      "predicted": "valuable",
+      "signals": {
+        "related": 0.6728,
+        "action": 0.0016,
+        "urgent": 0.094,
+        "value": 0.8495
+      },
+      "review": true
+    },
+    {
+      "id": "thread_context-01",
+      "family": "thread_context",
+      "expected": "urgent",
+      "mode": "choice",
+      "request_sha256": "df1c89cba0af74f53cf7758bd9436151dd48dccab0a757c383642e19e641a318",
+      "forward_ms": 17.217157990671694,
+      "answers": {
+        "category": {
+          "choice": "urgent",
+          "probabilities": {
+            "urgent": 0.589,
+            "todo": 0.1107,
+            "valuable": 0.1825,
+            "noise": 0.1178
+          },
+          "confidence": 0.19371248406883834
+        }
+      },
+      "predicted": "urgent",
+      "probabilities": {
+        "urgent": 0.589,
+        "todo": 0.1107,
+        "valuable": 0.1825,
+        "noise": 0.1178
+      },
+      "confidence": 0.19371248406883834
+    },
+    {
+      "id": "thread_context-01",
+      "family": "thread_context",
+      "expected": "urgent",
+      "mode": "four_noul",
+      "request_sha256": "8289521a4eb8761ac3bb1fe3c9fba97ec094e301453dab4d09a11a4c24cd9d62",
+      "forward_ms": 18.95959791727364,
+      "answers": {
+        "related": {
+          "noul": 0.654
+        },
+        "action": {
+          "noul": 0.0445
+        },
+        "urgent": {
+          "noul": 0.7901
+        },
+        "value": {
+          "noul": 0.9276
+        }
+      },
+      "predicted": "valuable",
+      "signals": {
+        "related": 0.654,
+        "action": 0.0445,
+        "urgent": 0.7901,
+        "value": 0.9276
+      },
+      "review": true
+    },
+    {
+      "id": "thread_context-02",
+      "family": "thread_context",
+      "expected": "urgent",
+      "mode": "choice",
+      "request_sha256": "ded3c18a081df442afb9c9b3534df4d25befbd3b404f39c1a88f6cabc99892a7",
+      "forward_ms": 17.262766021303833,
+      "answers": {
+        "category": {
+          "choice": "urgent",
+          "probabilities": {
+            "urgent": 0.5926,
+            "todo": 0.0211,
+            "valuable": 0.0975,
+            "noise": 0.2888
+          },
+          "confidence": 0.295165823734738
+        }
+      },
+      "predicted": "urgent",
+      "probabilities": {
+        "urgent": 0.5926,
+        "todo": 0.0211,
+        "valuable": 0.0975,
+        "noise": 0.2888
+      },
+      "confidence": 0.295165823734738
+    },
+    {
+      "id": "thread_context-02",
+      "family": "thread_context",
+      "expected": "urgent",
+      "mode": "four_noul",
+      "request_sha256": "5fdab9de5ec8553ec1e667b013ac30133831843a1abfe1434c62fe0a48615dc5",
+      "forward_ms": 17.133989022113383,
+      "answers": {
+        "related": {
+          "noul": 0.349
+        },
+        "action": {
+          "noul": 0.0219
+        },
+        "urgent": {
+          "noul": 0.8987
+        },
+        "value": {
+          "noul": 0.96
+        }
+      },
+      "predicted": "noise",
+      "signals": {
+        "related": 0.349,
+        "action": 0.0219,
+        "urgent": 0.8987,
+        "value": 0.96
+      },
+      "review": true
+    },
+    {
+      "id": "thread_context-03",
+      "family": "thread_context",
+      "expected": "todo",
+      "mode": "choice",
+      "request_sha256": "4c9253a7b47e62906c63c3d480a3db544d3c8d496b533f0a9207e00818dcd853",
+      "forward_ms": 16.590086044743657,
+      "answers": {
+        "category": {
+          "choice": "urgent",
+          "probabilities": {
+            "urgent": 0.5132,
+            "todo": 0.1948,
+            "valuable": 0.2277,
+            "noise": 0.0642
+          },
+          "confidence": 0.15293049604371678
+        }
+      },
+      "predicted": "urgent",
+      "probabilities": {
+        "urgent": 0.5132,
+        "todo": 0.1948,
+        "valuable": 0.2277,
+        "noise": 0.0642
+      },
+      "confidence": 0.15293049604371678
+    },
+    {
+      "id": "thread_context-03",
+      "family": "thread_context",
+      "expected": "todo",
+      "mode": "four_noul",
+      "request_sha256": "cbc26f4be2c009c67e595da586c8e5c59f5001da11360e1ba0dcbe07e8e92fc6",
+      "forward_ms": 17.14343309868127,
+      "answers": {
+        "related": {
+          "noul": 0.2701
+        },
+        "action": {
+          "noul": 0.1489
+        },
+        "urgent": {
+          "noul": 0.958
+        },
+        "value": {
+          "noul": 0.9188
+        }
+      },
+      "predicted": "noise",
+      "signals": {
+        "related": 0.2701,
+        "action": 0.1489,
+        "urgent": 0.958,
+        "value": 0.9188
+      },
+      "review": true
+    },
+    {
+      "id": "thread_context-04",
+      "family": "thread_context",
+      "expected": "todo",
+      "mode": "choice",
+      "request_sha256": "027213fe0a6a0f1fb7576b6ff9f51ec427bcc605381f267b8b5c474cd0d6eeba",
+      "forward_ms": 17.09007495082915,
+      "answers": {
+        "category": {
+          "choice": "valuable",
+          "probabilities": {
+            "urgent": 0.221,
+            "todo": 0.2928,
+            "valuable": 0.4465,
+            "noise": 0.0396
+          },
+          "confidence": 0.1479216733199883
+        }
+      },
+      "predicted": "valuable",
+      "probabilities": {
+        "urgent": 0.221,
+        "todo": 0.2928,
+        "valuable": 0.4465,
+        "noise": 0.0396
+      },
+      "confidence": 0.1479216733199883
+    },
+    {
+      "id": "thread_context-04",
+      "family": "thread_context",
+      "expected": "todo",
+      "mode": "four_noul",
+      "request_sha256": "3203672512785d47f1d9c6fdc7645d20efcfcb22ed8ec101da2743aee3ca67dc",
+      "forward_ms": 17.182477051392198,
+      "answers": {
+        "related": {
+          "noul": 0.5044
+        },
+        "action": {
+          "noul": 0.1814
+        },
+        "urgent": {
+          "noul": 0.2263
+        },
+        "value": {
+          "noul": 0.8026
+        }
+      },
+      "predicted": "valuable",
+      "signals": {
+        "related": 0.5044,
+        "action": 0.1814,
+        "urgent": 0.2263,
+        "value": 0.8026
+      },
+      "review": true
+    },
+    {
+      "id": "thread_context-05",
+      "family": "thread_context",
+      "expected": "valuable",
+      "mode": "choice",
+      "request_sha256": "ed1bdc83303c98b548ea982c2e079d40d25749c73d54f7f4b3d5527036db19a0",
+      "forward_ms": 17.54711999092251,
+      "answers": {
+        "category": {
+          "choice": "urgent",
+          "probabilities": {
+            "urgent": 0.3859,
+            "todo": 0.2823,
+            "valuable": 0.2415,
+            "noise": 0.0902
+          },
+          "confidence": 0.07328223474143458
+        }
+      },
+      "predicted": "urgent",
+      "probabilities": {
+        "urgent": 0.3859,
+        "todo": 0.2823,
+        "valuable": 0.2415,
+        "noise": 0.0902
+      },
+      "confidence": 0.07328223474143458
+    },
+    {
+      "id": "thread_context-05",
+      "family": "thread_context",
+      "expected": "valuable",
+      "mode": "four_noul",
+      "request_sha256": "acb0b93e758eab64c67b0eda1be1a47416ccb9e297353616809ddce50325a08e",
+      "forward_ms": 16.6053680004552,
+      "answers": {
+        "related": {
+          "noul": 0.3851
+        },
+        "action": {
+          "noul": 0.0008
+        },
+        "urgent": {
+          "noul": 0.0788
+        },
+        "value": {
+          "noul": 0.6055
+        }
+      },
+      "predicted": "noise",
+      "signals": {
+        "related": 0.3851,
+        "action": 0.0008,
+        "urgent": 0.0788,
+        "value": 0.6055
+      },
+      "review": true
+    },
+    {
+      "id": "thread_context-06",
+      "family": "thread_context",
+      "expected": "valuable",
+      "mode": "choice",
+      "request_sha256": "66bc124a6e21ab04fbe4f803627016214b730d20a2e33dd85b0e05a689d4b183",
+      "forward_ms": 17.1982329338789,
+      "answers": {
+        "category": {
+          "choice": "todo",
+          "probabilities": {
+            "urgent": 0.2526,
+            "todo": 0.4945,
+            "valuable": 0.1683,
+            "noise": 0.0846
+          },
+          "confidence": 0.13105370091468949
+        }
+      },
+      "predicted": "todo",
+      "probabilities": {
+        "urgent": 0.2526,
+        "todo": 0.4945,
+        "valuable": 0.1683,
+        "noise": 0.0846
+      },
+      "confidence": 0.13105370091468949
+    },
+    {
+      "id": "thread_context-06",
+      "family": "thread_context",
+      "expected": "valuable",
+      "mode": "four_noul",
+      "request_sha256": "cf849651eec6372e32487a8b7a5a87f7c72c0f1bf789ee5cbe17bcd6d92c4aba",
+      "forward_ms": 17.205644981004298,
+      "answers": {
+        "related": {
+          "noul": 0.8625
+        },
+        "action": {
+          "noul": 0.0013
+        },
+        "urgent": {
+          "noul": 0.922
+        },
+        "value": {
+          "noul": 0.9958
+        }
+      },
+      "predicted": "valuable",
+      "signals": {
+        "related": 0.8625,
+        "action": 0.0013,
+        "urgent": 0.922,
+        "value": 0.9958
+      },
+      "review": false
+    },
+    {
+      "id": "thread_context-07",
+      "family": "thread_context",
+      "expected": "noise",
+      "mode": "choice",
+      "request_sha256": "09146244d91843c9414fc1c31b5b8bc68505d973a89f0f7cab6af0d24c65083b",
+      "forward_ms": 16.933604958467185,
+      "answers": {
+        "category": {
+          "choice": "urgent",
+          "probabilities": {
+            "urgent": 0.4657,
+            "todo": 0.2342,
+            "valuable": 0.2099,
+            "noise": 0.0903
+          },
+          "confidence": 0.10508208485994419
+        }
+      },
+      "predicted": "urgent",
+      "probabilities": {
+        "urgent": 0.4657,
+        "todo": 0.2342,
+        "valuable": 0.2099,
+        "noise": 0.0903
+      },
+      "confidence": 0.10508208485994419
+    },
+    {
+      "id": "thread_context-07",
+      "family": "thread_context",
+      "expected": "noise",
+      "mode": "four_noul",
+      "request_sha256": "cd2ac1b486f293af4c0b3acac191abb118b9a8e39269006de562295246c3491a",
+      "forward_ms": 16.311893006786704,
+      "answers": {
+        "related": {
+          "noul": 0.8881
+        },
+        "action": {
+          "noul": 0.0015
+        },
+        "urgent": {
+          "noul": 0.9334
+        },
+        "value": {
+          "noul": 0.9894
+        }
+      },
+      "predicted": "valuable",
+      "signals": {
+        "related": 0.8881,
+        "action": 0.0015,
+        "urgent": 0.9334,
+        "value": 0.9894
+      },
+      "review": false
+    },
+    {
+      "id": "thread_context-08",
+      "family": "thread_context",
+      "expected": "noise",
+      "mode": "choice",
+      "request_sha256": "b515078ad76126eafed1cf5c4f0532526f281e181717341ad61c727f878125c2",
+      "forward_ms": 17.399566946551204,
+      "answers": {
+        "category": {
+          "choice": "valuable",
+          "probabilities": {
+            "urgent": 0.3069,
+            "todo": 0.1921,
+            "valuable": 0.4396,
+            "noise": 0.0614
+          },
+          "confidence": 0.12571664930178938
+        }
+      },
+      "predicted": "valuable",
+      "probabilities": {
+        "urgent": 0.3069,
+        "todo": 0.1921,
+        "valuable": 0.4396,
+        "noise": 0.0614
+      },
+      "confidence": 0.12571664930178938
+    },
+    {
+      "id": "thread_context-08",
+      "family": "thread_context",
+      "expected": "noise",
+      "mode": "four_noul",
+      "request_sha256": "869a9fb980a845ac82b324c1438028a997671aea38fc2ccca71198bdb2782b41",
+      "forward_ms": 17.081655911169946,
+      "answers": {
+        "related": {
+          "noul": 0.7103
+        },
+        "action": {
+          "noul": 0.44
+        },
+        "urgent": {
+          "noul": 0.9572
+        },
+        "value": {
+          "noul": 0.9426
+        }
+      },
+      "predicted": "valuable",
+      "signals": {
+        "related": 0.7103,
+        "action": 0.44,
+        "urgent": 0.9572,
+        "value": 0.9426
+      },
+      "review": true
+    },
+    {
+      "id": "cross_chat-01",
+      "family": "cross_chat",
+      "expected": "urgent",
+      "mode": "choice",
+      "request_sha256": "1f13c071e9ab48bf3ce74b796432d60f2a2d0cca9794208c11418708ee1a9b66",
+      "forward_ms": 16.87966100871563,
+      "answers": {
+        "category": {
+          "choice": "urgent",
+          "probabilities": {
+            "urgent": 0.5143,
+            "todo": 0.035,
+            "valuable": 0.0624,
+            "noise": 0.3883
+          },
+          "confidence": 0.27884286435002337
+        }
+      },
+      "predicted": "urgent",
+      "probabilities": {
+        "urgent": 0.5143,
+        "todo": 0.035,
+        "valuable": 0.0624,
+        "noise": 0.3883
+      },
+      "confidence": 0.27884286435002337
+    },
+    {
+      "id": "cross_chat-01",
+      "family": "cross_chat",
+      "expected": "urgent",
+      "mode": "four_noul",
+      "request_sha256": "1f161eaef6901136f7e57729eb8c306b2957bf03663e357631afc5b5dc700ac6",
+      "forward_ms": 16.900285030715168,
+      "answers": {
+        "related": {
+          "noul": 0.8816
+        },
+        "action": {
+          "noul": 0.2227
+        },
+        "urgent": {
+          "noul": 0.9927
+        },
+        "value": {
+          "noul": 0.9966
+        }
+      },
+      "predicted": "valuable",
+      "signals": {
+        "related": 0.8816,
+        "action": 0.2227,
+        "urgent": 0.9927,
+        "value": 0.9966
+      },
+      "review": false
+    },
+    {
+      "id": "cross_chat-02",
+      "family": "cross_chat",
+      "expected": "urgent",
+      "mode": "choice",
+      "request_sha256": "c81a0b894a8e9049d13e8fbddfd3d9850ae1575c15898c30502ab400a5135418",
+      "forward_ms": 17.167591024190187,
+      "answers": {
+        "category": {
+          "choice": "urgent",
+          "probabilities": {
+            "urgent": 0.7037,
+            "todo": 0.1364,
+            "valuable": 0.103,
+            "noise": 0.0569
+          },
+          "confidence": 0.3391314256056437
+        }
+      },
+      "predicted": "urgent",
+      "probabilities": {
+        "urgent": 0.7037,
+        "todo": 0.1364,
+        "valuable": 0.103,
+        "noise": 0.0569
+      },
+      "confidence": 0.3391314256056437
+    },
+    {
+      "id": "cross_chat-02",
+      "family": "cross_chat",
+      "expected": "urgent",
+      "mode": "four_noul",
+      "request_sha256": "c906fb293b859bb8e6b62fc77b7e7d8ef785ff28f8176c9fc0da42b17851b2b2",
+      "forward_ms": 17.152533982880414,
+      "answers": {
+        "related": {
+          "noul": 0.6011
+        },
+        "action": {
+          "noul": 0.1558
+        },
+        "urgent": {
+          "noul": 0.8537
+        },
+        "value": {
+          "noul": 0.9459
+        }
+      },
+      "predicted": "valuable",
+      "signals": {
+        "related": 0.6011,
+        "action": 0.1558,
+        "urgent": 0.8537,
+        "value": 0.9459
+      },
+      "review": true
+    },
+    {
+      "id": "cross_chat-03",
+      "family": "cross_chat",
+      "expected": "todo",
+      "mode": "choice",
+      "request_sha256": "181c2544c4771a05fb689f0752c61153fda258bec766a234e26df18949676149",
+      "forward_ms": 16.947678057476878,
+      "answers": {
+        "category": {
+          "choice": "todo",
+          "probabilities": {
+            "urgent": 0.2542,
+            "todo": 0.4418,
+            "valuable": 0.2937,
+            "noise": 0.0103
+          },
+          "confidence": 0.19497526668279852
+        }
+      },
+      "predicted": "todo",
+      "probabilities": {
+        "urgent": 0.2542,
+        "todo": 0.4418,
+        "valuable": 0.2937,
+        "noise": 0.0103
+      },
+      "confidence": 0.19497526668279852
+    },
+    {
+      "id": "cross_chat-03",
+      "family": "cross_chat",
+      "expected": "todo",
+      "mode": "four_noul",
+      "request_sha256": "465383fbef29616bbd49e1f841afb141c89c8d1ee6cb71e2dcf6bed5283f2784",
+      "forward_ms": 16.876791953109205,
+      "answers": {
+        "related": {
+          "noul": 0.8119
+        },
+        "action": {
+          "noul": 0.4698
+        },
+        "urgent": {
+          "noul": 0.962
+        },
+        "value": {
+          "noul": 0.933
+        }
+      },
+      "predicted": "valuable",
+      "signals": {
+        "related": 0.8119,
+        "action": 0.4698,
+        "urgent": 0.962,
+        "value": 0.933
+      },
+      "review": true
+    },
+    {
+      "id": "cross_chat-04",
+      "family": "cross_chat",
+      "expected": "todo",
+      "mode": "choice",
+      "request_sha256": "5d3ee9b1fafcb1c9e6391d50de4b5d9b856126e9ab9fa7f4f59a1689e57d2326",
+      "forward_ms": 17.123155994340777,
+      "answers": {
+        "category": {
+          "choice": "todo",
+          "probabilities": {
+            "urgent": 0.1403,
+            "todo": 0.4256,
+            "valuable": 0.3314,
+            "noise": 0.1027
+          },
+          "confidence": 0.1063436635953483
+        }
+      },
+      "predicted": "todo",
+      "probabilities": {
+        "urgent": 0.1403,
+        "todo": 0.4256,
+        "valuable": 0.3314,
+        "noise": 0.1027
+      },
+      "confidence": 0.1063436635953483
+    },
+    {
+      "id": "cross_chat-04",
+      "family": "cross_chat",
+      "expected": "todo",
+      "mode": "four_noul",
+      "request_sha256": "de1f7576a24f4b4bad8e74294069bca7185ff3c75ac3313a0ae268271d3fc199",
+      "forward_ms": 17.08952197805047,
+      "answers": {
+        "related": {
+          "noul": 0.0443
+        },
+        "action": {
+          "noul": 0.0198
+        },
+        "urgent": {
+          "noul": 0.0105
+        },
+        "value": {
+          "noul": 0.9015
+        }
+      },
+      "predicted": "noise",
+      "signals": {
+        "related": 0.0443,
+        "action": 0.0198,
+        "urgent": 0.0105,
+        "value": 0.9015
+      },
+      "review": false
+    },
+    {
+      "id": "cross_chat-05",
+      "family": "cross_chat",
+      "expected": "valuable",
+      "mode": "choice",
+      "request_sha256": "a5eb99edf38428141ce8ff74e9f6553b1659d6774d6a5ea34677643a0cb8686f",
+      "forward_ms": 16.315111075527966,
+      "answers": {
+        "category": {
+          "choice": "urgent",
+          "probabilities": {
+            "urgent": 0.9364,
+            "todo": 0.0328,
+            "valuable": 0.019,
+            "noise": 0.0119
+          },
+          "confidence": 0.7826039328178285
+        }
+      },
+      "predicted": "urgent",
+      "probabilities": {
+        "urgent": 0.9364,
+        "todo": 0.0328,
+        "valuable": 0.019,
+        "noise": 0.0119
+      },
+      "confidence": 0.7826039328178285
+    },
+    {
+      "id": "cross_chat-05",
+      "family": "cross_chat",
+      "expected": "valuable",
+      "mode": "four_noul",
+      "request_sha256": "98332f90b277a8a390d016e8062b300b396b2e4f946a2754f6c9286613f1f5ff",
+      "forward_ms": 16.890325001440942,
+      "answers": {
+        "related": {
+          "noul": 0.6248
+        },
+        "action": {
+          "noul": 0.0133
+        },
+        "urgent": {
+          "noul": 0.1916
+        },
+        "value": {
+          "noul": 0.9764
+        }
+      },
+      "predicted": "valuable",
+      "signals": {
+        "related": 0.6248,
+        "action": 0.0133,
+        "urgent": 0.1916,
+        "value": 0.9764
+      },
+      "review": true
+    },
+    {
+      "id": "cross_chat-06",
+      "family": "cross_chat",
+      "expected": "valuable",
+      "mode": "choice",
+      "request_sha256": "1c21051371eae004b447177a2044de7cfc6318b205987e3b19622de076dafa78",
+      "forward_ms": 17.162868985906243,
+      "answers": {
+        "category": {
+          "choice": "todo",
+          "probabilities": {
+            "urgent": 0.0654,
+            "todo": 0.696,
+            "valuable": 0.1045,
+            "noise": 0.1341
+          },
+          "confidence": 0.3248234579541005
+        }
+      },
+      "predicted": "todo",
+      "probabilities": {
+        "urgent": 0.0654,
+        "todo": 0.696,
+        "valuable": 0.1045,
+        "noise": 0.1341
+      },
+      "confidence": 0.3248234579541005
+    },
+    {
+      "id": "cross_chat-06",
+      "family": "cross_chat",
+      "expected": "valuable",
+      "mode": "four_noul",
+      "request_sha256": "6662d20f248d451c9dff097a07a755de6a842c0aab9bb1646f093831642e896c",
+      "forward_ms": 17.141556949354708,
+      "answers": {
+        "related": {
+          "noul": 0.5989
+        },
+        "action": {
+          "noul": 0.0717
+        },
+        "urgent": {
+          "noul": 0.877
+        },
+        "value": {
+          "noul": 0.958
+        }
+      },
+      "predicted": "valuable",
+      "signals": {
+        "related": 0.5989,
+        "action": 0.0717,
+        "urgent": 0.877,
+        "value": 0.958
+      },
+      "review": true
+    },
+    {
+      "id": "cross_chat-07",
+      "family": "cross_chat",
+      "expected": "noise",
+      "mode": "choice",
+      "request_sha256": "41bafdc9de25591f501d0ce0f5f9648f7eea197caaaeae0394e97841dd235ba5",
+      "forward_ms": 17.114690970629454,
+      "answers": {
+        "category": {
+          "choice": "urgent",
+          "probabilities": {
+            "urgent": 0.9299,
+            "todo": 0.0201,
+            "valuable": 0.0364,
+            "noise": 0.0136
+          },
+          "confidence": 0.7653878245315207
+        }
+      },
+      "predicted": "urgent",
+      "probabilities": {
+        "urgent": 0.9299,
+        "todo": 0.0201,
+        "valuable": 0.0364,
+        "noise": 0.0136
+      },
+      "confidence": 0.7653878245315207
+    },
+    {
+      "id": "cross_chat-07",
+      "family": "cross_chat",
+      "expected": "noise",
+      "mode": "four_noul",
+      "request_sha256": "b40908c91b09a348d2305261cadf580f37f09914f6e5f1013a97ef3a42754eb6",
+      "forward_ms": 17.170417006127536,
+      "answers": {
+        "related": {
+          "noul": 0.2183
+        },
+        "action": {
+          "noul": 0.0244
+        },
+        "urgent": {
+          "noul": 0.162
+        },
+        "value": {
+          "noul": 0.9625
+        }
+      },
+      "predicted": "noise",
+      "signals": {
+        "related": 0.2183,
+        "action": 0.0244,
+        "urgent": 0.162,
+        "value": 0.9625
+      },
+      "review": false
+    },
+    {
+      "id": "cross_chat-08",
+      "family": "cross_chat",
+      "expected": "noise",
+      "mode": "choice",
+      "request_sha256": "a5b254746ae2a6f5b4f036fdd2f1f3f044df2accf88199e968a9f7f0c780748c",
+      "forward_ms": 16.916210995987058,
+      "answers": {
+        "category": {
+          "choice": "noise",
+          "probabilities": {
+            "urgent": 0.1253,
+            "todo": 0.0976,
+            "valuable": 0.2415,
+            "noise": 0.5357
+          },
+          "confidence": 0.15979664540543814
+        }
+      },
+      "predicted": "noise",
+      "probabilities": {
+        "urgent": 0.1253,
+        "todo": 0.0976,
+        "valuable": 0.2415,
+        "noise": 0.5357
+      },
+      "confidence": 0.15979664540543814
+    },
+    {
+      "id": "cross_chat-08",
+      "family": "cross_chat",
+      "expected": "noise",
+      "mode": "four_noul",
+      "request_sha256": "b14b4503d5ed168cc077c4d5ca1f64e0329c43b2bc1a521ddda3d7560551ccf4",
+      "forward_ms": 16.947280033491552,
+      "answers": {
+        "related": {
+          "noul": 0.0296
+        },
+        "action": {
+          "noul": 0.0036
+        },
+        "urgent": {
+          "noul": 0.3625
+        },
+        "value": {
+          "noul": 0.3247
+        }
+      },
+      "predicted": "noise",
+      "signals": {
+        "related": 0.0296,
+        "action": 0.0036,
+        "urgent": 0.3625,
+        "value": 0.3247
+      },
+      "review": false
+    }
+  ]
+}

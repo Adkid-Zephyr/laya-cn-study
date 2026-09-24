@@ -1,0 +1,5 @@
+Laya Chinese intent adaptation V3
+Upstream Laya architecture, code and pretrained weights: Convai Innovations and Laya contributors.
+Shared code snapshot: ef7d7d269e2e34c763c228144dc10fe7d421acf9.
+Changes: label-preserving input transformations, post-training, evaluation, and standalone full-checkpoint inference wrapper by Adkid with OpenAI Codex assistance.
+Dataset attribution and licenses remain with their original authors; see DATA_SOURCES.md.

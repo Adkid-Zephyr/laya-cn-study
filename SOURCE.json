@@ -1,0 +1,30 @@
+{
+  "experiment_date": "2026-09-23",
+  "export_date": "2026-09-24",
+  "provenance": "Predictions from archived actual training/evaluation. No source text or private chats exported. Existing reused test subsets, not a new blind test.",
+  "files": [
+    {
+      "path": "predictions.jsonl.gz",
+      "sha256": "b400846e81f5782650d819ce480cad64758aa204b6ce39a6a9828415ab381da7"
+    },
+    {
+      "path": "feishu.json",
+      "sha256": "00e6bbe59433605789ca6afecc7c27ae427c11ed018cdbbdec15f6b5861bd1b8"
+    },
+    {
+      "path": "expected_metrics.json",
+      "sha256": "d431172dadf04d13eb305a6c57622341029e04a3420a1a7ce75ccbc1507b2f17"
+    }
+  ],
+  "upstream_model": "f113589fbcd67bbf0fafd095e1094e2045ea3682e023ae4aa99ea7f0720b1462",
+  "selected_delta": "e6d4b503e0603a16cb84dcd5f2c88c3ce10dbbba865b64646335007e18adea52",
+  "merged_model_sha256": "f24d658960f88c45497bc71064db57b9046bedd77f1f56c773b5e0041008d6a7",
+  "dataset_revisions": {
+    "massive": "ff6bd8e4b27c3543e4f8fe2108f32bb95a6f8740",
+    "crosswoz": "4a3e56082543ed9eecb9c76ef5eadc1aa0cc5ca0",
+    "t2": "2a369a430a70979223f1b9a41b1919774d46b432",
+    "laya": "1c5edc17a7acd8701df6fc341c0d179f1c62c982",
+    "mmbert": "c5955035435e2bf121cde7f3c8863ef52ff35d82"
+  },
+  "selection": "fixed tune rule selected V3seed42 before final evaluation; seeds43/44 are replications, never model selection"
+}
