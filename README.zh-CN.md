@@ -1,29 +1,20 @@
-# Laya中文意图后训练：三种子结果与Feishu应用限制
+# Laya-CN Study：Laya 中文后训练实验
 
-独立社区实验。基于历史多语言权重，不是当前main成绩，也不表示官方联合开发。
+这是独立开源的 Laya 中文优先后训练研究仓库。每轮实验单独保存方法、模型版本、数据来源、逐条评测和不足；不是 Laya 官方发布。
 
-| 模型 | 中文二元意图 | 中文多选意图 |
-|---|---:|---:|
-| 原Laya | 177/258（68.60%） | 96/222（43.24%） |
-| 中间后训练A | 203/258（78.68%） | 149/222（67.12%） |
-| V3 seed42 | 232/258（89.92%） | 188/222（84.68%） |
-| 同配方seed43 | 231/258（89.53%） | 187/222（84.23%） |
-| 同配方seed44 | 229/258（88.76%） | 186/222（83.78%） |
+| 实验 | 报告 | 模型 | 当前状态 |
+|---|---|---|---|
+| **Laya-CN-A** | [三种子中文意图适配报告](studies/laya-cn-a/README.zh-CN.md) · [English](studies/laya-cn-a/README.md) | [Hugging Face 完整权重](https://huggingface.co/Adkid/laya-cn-a) | 实验模型；Feishu 待办筛选尚不可靠 |
 
-三种子平均89.41%/84.23%。这不是三种方法，而是固定配方改变随机种子；保留原先按开发集规则选出的seed42，没有挑测试最高的种子。面板此前在项目中使用，非新盲测；多选非完整60类别；重复训练不增加独立测试样本。
+名称中的 A 是此系列**第一个公开版本**。实际公开权重来自内部实验 V3 的 seed42；训练过程中也有一个叫 A 的中间对照模型，两者不是同一版本。
 
-原始标注95,708条，来自MASSIVE、CrossWOZ、T2Ranking。保留标签，做中文意图描述、二元意图匹配、带目标ID/干扰消息的结构化输入。V3在A基础上解冻最后8层及决策部分，训练2轮/2991步；没有训练Feishu评测题，也没有新造LLM答案。
-
-**应用层仍未成功。** Feishu（飞书）是中国日常工作中使用的沟通协作软件。借用其群消息场景评估“谁该做、还要不要做、急不急”，不评测平台本身，也不是官方标准。V3单选25/64、四问19/64；四问漏掉30/32个行动案例，不能作为可靠待办筛选器。相关性T2 RPS以及原格式对话行为F1也略退步，详见[英文报告](README.md)。
-
-离线复核只需Python，不需模型或API：
+本轮留有 31,200 条跨模型/任务预测记录、128 条 Feishu 场景响应，以及不需要下载模型的离线核验脚本：
 
 ```bash
-python audit.py
+python studies/laya-cn-a/audit.py
+python -m unittest discover -s studies/laya-cn-a -p 'test_*.py'
 ```
 
-包含逐条概率、标签、固定哈希、分母与误分派/漏任务审计。输入源不是私人聊天；Feishu案例是合成场景，输出是真实调用结果。
+Feishu 案例是合成的中文办公消息场景，不是私人群聊转储或官方评测。上游数据及许可见实验目录；不重发原始语料。后续版本可分别放入 `studies/`，模型权重存放在对应的 Hugging Face 仓库。
 
-完整权重已导出并通过CPU/MPS样例一致性检查。完整模型已公开：[Hugging Face：Laya-CN-A](https://huggingface.co/Adkid/laya-cn-a)，固定版本 `97f1604aca185393887b9a5cc78380fdb008f4a4`。训练和评测局限、来源与许可见英文报告及DATA_SOURCES.md。
-
-<img src="scorecard.zh-CN.png" width="420" alt="Three-seed intent results and Feishu limitations">
+[原始 Jev/Laya Feishu benchmark](https://github.com/Adkid-Zephyr/chinese-workflow-decision-bench) · [Laya 上游](https://github.com/NandhaKishorM/laya)

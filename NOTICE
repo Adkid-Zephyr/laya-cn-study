@@ -1,4 +1,4 @@
-Laya Chinese intent adaptation V3
+Laya-CN Study (current model Laya-CN-A; internal experiment V3 seed42)
 Upstream Laya architecture, code and pretrained weights: Convai Innovations and Laya contributors.
 Shared code snapshot: ef7d7d269e2e34c763c228144dc10fe7d421acf9.
 Changes: label-preserving input transformations, post-training, evaluation, and standalone full-checkpoint inference wrapper by Adkid with OpenAI Codex assistance.
